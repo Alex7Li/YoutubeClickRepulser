@@ -72,11 +72,11 @@ async function onPageScript(api_key) {
   };
   // Make a request to the LLM}
   
-  make_request(api_key, "The worlds most original youtube title").then(
-    (result) => {
-      console.log("Request finished")
-      console.log(result)
-  });
+  // make_request(api_key, "The worlds most original youtube title").then(
+  //   (result) => {
+  //     console.log("Request finished")
+  //     console.log(result)
+  // });
   
   Array.from(
     document.querySelectorAll('[id="video-title"]'))
