@@ -73,16 +73,11 @@ function onPageScript(api_key) {
       console.log("Request finished")
       console.log(result)
   });
-  // This is for now. We will eventually have a function that will hit the server for the LLM 
-  // for each title.
-  let replacements = ["Why", "are", "you", "gay"];
-  let i = 0;
 
   function replaceWithLLM(title) {
-
     // Call the LLM for replacement here. 
       const prompt = `I want you to change the title of this youtube video to not sound like clickbait anymore. But make sure not to change anything if the video title is of a music video. The title of the video is: ${title}`
-      const return_string = "C====3"
+      const return_string = "This is a video."
       return return_string
     };
 
@@ -91,8 +86,7 @@ function onPageScript(api_key) {
     .forEach(function (x) {
         try{
           // const replacement = replaceWithLLM(x.innerHTML)
-          const replacement = replacements[i%4];
-          i += 1;
+          const replacement = replaceWithLLM(x.innerHTML)
           x.innerHTML = replacement;
         }
       catch(error){
