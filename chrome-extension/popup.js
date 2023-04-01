@@ -1,10 +1,13 @@
-const leaveLoginScreen = function (email) {
-  const hello = document.getElementById('hello');
-}
-
+const OPENAPI_KEY = getCookie("OpenAI Key")
 // Login script executes after the page loads
 document.addEventListener("DOMContentLoaded", function () {
-  const loader = document.getElementById('loader');
+  const openAIKey = document.getElementById('openaikey');
+  const setAIKey = document.getElementById('setopenaikey');
+  openAIKey.value = OPENAPI_KEY;
+  setAIKey.onclick = function () {
+    setCookie("OpenAI Key", openAIKey.value);
+    OPENAPI_KEY = openAIKey.value;
+  }
 });
 
 chrome.tabs.query({ active: true, currentWindow: true }).then(function (tabs) {
