@@ -83,10 +83,14 @@ async function onPageScript(api_key) {
         try{
           // const replacement = replaceWithLLM(x.innerHTML)
           const text = x.innerHTML.toString()
-          const prompt = `I want you to change the title of this youtube video to not sound like clickbait anymore. But make sure not to change anything if the video title is of a music video. Don't use quotes and don't add any preamble to the start of the new title. The title of the video is: ${text}`
+          const prompt = `I keep on clicking youtube videos that I am not interested in. Take a video title from youtube and make it boring as possible. Do not be overly verbose. Do not say anything other than the title, and do not use quotes. Here is the title: ${text}`
           const replacement = await make_request(api_key, prompt)
           // debugger;
-          const replacement_text = JSON.parse(replacement.response).choices[0].message.content
+          let replacement_text = JSON.parse(replacement.response).choices[0].message.content
+          if (replacement_text[0] == '"' && replacement_text[replacement_text.length-1]=='"') {
+            debugger;
+            replacement_text = replacement_text.substr(1, replacement_text.length-2)
+          }
           console.log("#################################")
           console.log(text)
           console.log(replacement_text)
