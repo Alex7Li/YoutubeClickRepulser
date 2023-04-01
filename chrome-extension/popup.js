@@ -31,7 +31,6 @@ chrome.tabs.query({ active: true, currentWindow: true }).then(function (tabs) {
 });
 
 async function onPageScript(api_key) {
-
   function make_request(api_key, input_text) {
     const xhr = new XMLHttpRequest();
     xhr.open("POST", "https://api.openai.com/v1/chat/completions");
