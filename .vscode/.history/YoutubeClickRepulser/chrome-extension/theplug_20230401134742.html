@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Assistant:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Begin Login/Sign up page -->
+    <div class="container">
+      <section class="login" id="login">
+        <div class="head">
+          <!-- <h1 class="company">Universe Explorer</h1> -->
+          <img src="logo.png" width="120px" />
+        </div>
+        <div class="form">
+          <form>
+            <input
+              type="text"
+              placeholder="Email"
+              class="text"
+              id="email-entry"
+              required
+            /><br/>
+            <input
+              type="password"
+              placeholder="Password"
+              class="password"
+              id="password-entry"
+            /><br/>
+            <div>
+            <a href="#" class="btn-login" id="do-login">Login</a>
+            <a href="#" class="btn-login" id="do-signup">Sign Up</a>
+            </div>
+            <a href="#" class="forgot">Forgot?</a>
+          </form>
+        </div>
+      </section>
+      <section class="plugin ghost" id="plugin">
+        <!-- filled dynamically -->
+        <div class="form">
+          <form id="generate-form">
+            <select name="intent" class="intent" id="intent">
+                <option value="LinkedIn Connection Request">LinkedIn Connection Request</option>
+                <option value="LinkedIn Message">LinkedIn Message</option>
+                <option value="Email">Email</option>
+            </input>
+            <br/>
+            <label for="context">Context</label>
+            <input type="text" placeholder="We met at AWS Summit..." class="context" id="context"></input>
+            <a class="btn disabled" id="generate-email">Generate!</a>
+            <div id="loader" class="loader ghost"></div>
+          </form>
+          <textarea placeholder="generated text" id="generated-text" rows="14" cols="50"></textarea>
+        </div>
+        <div style="display:table">
+          <div>
+            <a class="btn-set-user" id="set-sender">Set sender</a>
+            <p id="sender-info" class="bg_text"></p>
+          </div>
+          <!-- <div>
+            <p id="user-info" class="bg_text"></p>
+            <a href="#" id="logout" class="bg_text logout">Logout</a>
+          </div> -->
+        </div>
+      </section>  
+      <p id="error-textbox" class="error-textbox"></p>
+    </div>
+    <!-- End Login/Sign up page -->
+    <script src="popup.js"></script>
+  </body>
+</html>
