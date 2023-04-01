@@ -2,7 +2,6 @@ const leaveLoginScreen = function (email) {
   const hello = document.getElementById('hello');
 }
 
-
 // Login script executes after the page loads
 document.addEventListener("DOMContentLoaded", function () {
   const loader = document.getElementById('loader');
@@ -29,6 +28,23 @@ chrome.tabs.query({ active: true, currentWindow: true }).then(function (tabs) {
 });
 
 function onPageScript(selector) {
+
+  // This is for now. We will eventually have a function that will hit the server for the LLM 
+  // for each title.
+  let replacements = ["This", "is", "working"];
+  let i = 0;
+  Array.from(
+    document.querySelectorAll('[id="video-title"]'))
+    .forEach(function (x) { 
+        try{
+          x.innerHTML=replacements[i%3]; i = i+1;
+        }
+      catch(error){
+        console.log(error)
+      }
+    }
+); 
+
   console.log("I'm on the page")
   return "xx"
 }
