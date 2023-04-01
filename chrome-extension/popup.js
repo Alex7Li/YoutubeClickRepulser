@@ -28,8 +28,10 @@ chrome.tabs.query({ active: true, currentWindow: true }).then(function (tabs) {
   console.log(error)
 });
 
-
 function onPageScript(selector) {
   console.log("I'm on the page")
   return "xx"
 }
+
+// Make a request to the LLM
+// make_request();
