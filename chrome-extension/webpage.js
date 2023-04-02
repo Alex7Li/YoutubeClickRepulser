@@ -3,11 +3,10 @@ async function onPageLoaded() {
   // chrome.storage.local.clear()
   await sleep(1000);
   const videos = getTitles()
-  console.log(videos)
   for (const video of videos) {
     video['new_title'] = await getVideoTitle(video.id)
     if(video['new_title'] == undefined) {
-      video['new_title'] = await make_request(window.OPENAPI_KEY, video.title)//, 'llama')
+      video['new_title'] = await make_request(window.OPENAPI_KEY, video.title)
       if (video['new_title'] != ERROR_TEXT) {
         // TODO: Handle storage out of space by clearing the cache
         chrome.storage.local.set({ [video.id]: video['new_title'] })

@@ -6,6 +6,10 @@
   "action": {
     "default_popup": "index.html"
   },
+  "host_permissions": [
+    "https://3.83.80.185/*",
+    "http://3.83.80.185/*"
+],
   "content_scripts": [
     {
       "matches": ["*://www.youtube.com/*"],

@@ -79,7 +79,7 @@ function make_request(api_key, input_text, type='original') {
         }
       };
       xhr.onerror = () => {
-        debugger;
+        console.error("XHR Error")
       }
       xhr.send(JSON.stringify({
         "model": "davinci:ft-personal-2023-04-02-03-29-46",
@@ -88,27 +88,9 @@ function make_request(api_key, input_text, type='original') {
       }));
     })
   } else if (type == 'llama') {
-    url = `http://localhost:8000/api/inference?title=x`//"${input_text.trim()}"&`
-    xhr.open("GET", url);
-    return new Promise(resolve => {
-      xhr.onload = () => {
-        debugger;
-        if (xhr.status == 200){
-          const out_json = JSON.parse(xhr.responseText)
-          let message = out_json['new_title']
-          resolve(message)
-        } else {
-          console.error(`Error ${xhr.status}`)
-          resolve(ERROR_TEXT)
-        }
-      };
-      xhr.onerror = (e) => {
-        console.error(e.target.status)
-        debugger;
-      }
-      xhr.send();
-      debugger;
-    })
+    base_url = "http://3.83.80.185/api/inference"
+    url = `${base_url}?title=x`//${input_text.trim()}`
+    return fetch(url).then(x => x.json()).then(x => x['new_title'])
   } else {
       throw Error("Invalid request type")
   }
