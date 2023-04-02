@@ -2,3 +2,5 @@
 lti-llm-deployment
 simple-llama-finetuner*
 .DS_Store
+nohup.out
+chrome.zip
