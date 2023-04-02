@@ -1,0 +1,518 @@
+/home/alex/git/YoutubeClickRepulser/data_to_csv.py:32: FutureWarning: In a future version of pandas all arguments of DataFrame.drop except for the argument 'labels' will be keyword-only.
+  title_data.drop(title_data.columns.difference(['prompt']), 1, inplace=True)
+  0%|          | 0/1881 [00:00<?, ?it/s]  0%|          | 2/1881 [00:01<20:14,  1.55it/s]  0%|          | 3/1881 [00:01<18:16,  1.71it/s]  0%|          | 4/1881 [00:02<17:06,  1.83it/s]  0%|          | 5/1881 [00:03<19:55,  1.57it/s]  0%|          | 6/1881 [00:03<21:59,  1.42it/s]  0%|          | 7/1881 [00:04<25:23,  1.23it/s]  0%|          | 8/1881 [00:06<28:15,  1.10it/s]  0%|          | 9/1881 [00:06<26:42,  1.17it/s]  1%|          | 10/1881 [00:07<26:23,  1.18it/s]  1%|          | 11/1881 [00:08<25:42,  1.21it/s]  1%|          | 12/1881 [00:08<23:00,  1.35it/s]  1%|          | 13/1881 [00:09<23:39,  1.32it/s]  1%|          | 14/1881 [00:10<23:57,  1.30it/s]  1%|          | 15/1881 [00:11<27:05,  1.15it/s]  1%|          | 16/1881 [00:12<23:39,  1.31it/s]  1%|          | 17/1881 [00:12<23:49,  1.30it/s]  1%|          | 18/1881 [00:13<23:44,  1.31it/s]  1%|          | 19/1881 [00:14<23:50,  1.30it/s]  1%|          | 20/1881 [00:15<24:37,  1.26it/s]  1%|          | 21/1881 [00:15<21:51,  1.42it/s]  1%|          | 22/1881 [00:16<22:52,  1.35it/s]  1%|          | 23/1881 [00:17<23:43,  1.31it/s]  1%|▏         | 24/1881 [00:18<23:43,  1.30it/s]  1%|▏         | 25/1881 [00:19<27:23,  1.13it/s]  1%|▏         | 26/1881 [00:19<23:57,  1.29it/s]  1%|▏         | 27/1881 [00:20<24:54,  1.24it/s]  1%|▏         | 28/1881 [00:21<24:48,  1.24it/s]  2%|▏         | 29/1881 [00:22<24:52,  1.24it/s]  2%|▏         | 30/1881 [00:23<27:55,  1.10it/s]  2%|▏         | 31/1881 [00:24<29:56,  1.03it/s]  2%|▏         | 32/1881 [00:25<31:11,  1.01s/it]  2%|▏         | 33/1881 [00:26<26:41,  1.15it/s]  2%|▏         | 34/1881 [00:27<28:42,  1.07it/s]  2%|▏         | 35/1881 [00:28<27:47,  1.11it/s]  2%|▏         | 36/1881 [00:29<30:02,  1.02it/s]  2%|▏         | 37/1881 [00:30<28:15,  1.09it/s]  2%|▏         | 38/1881 [00:31<27:25,  1.12it/s]  2%|▏         | 39/1881 [00:31<24:01,  1.28it/s]  2%|▏         | 40/1881 [00:32<27:10,  1.13it/s]  2%|▏         | 41/1881 [00:33<23:28,  1.31it/s]  2%|▏         | 42/1881 [00:33<23:35,  1.30it/s]  2%|▏         | 43/1881 [00:34<23:48,  1.29it/s]  2%|▏         | 43/1881 [00:34<24:46,  1.24it/s]
+Apple Pay Is Killing the Physical Wallet After Only Eight Years | Tech News Briefing Podcast | WSJ => Apple Pay and the Decline of Physical Wallets | Tech News Briefing Podcast | WSJ
+The most EXPENSIVE thing I own. => My possessions and their monetary value.
+My New House Gaming Setup is SICK! => Tour of My Gaming Room
+Petrol Vs Liquid Nitrogen | Freezing Experiment | പെട്രോളിനെ ഐസ് ആകാൻ പറ്റുമോ | M4 Tech | => Comparison of Petrol and Liquid Nitrogen in a Freezing Experiment
+Best Back to School Tech 2022! => School Supplies for the Upcoming Year
+Brewmaster Answers Beer Questions From Twitter | Tech Support | WIRED => Brewmaster Responds to Inquiries About Beer on Social Media | Technical Assistance | WIRED
+Tech Monopolies: Last Week Tonight with John Oliver (HBO) => Discussion on Technology Companies' Dominance: Last Week Tonight with John Oliver (HBO)
+I bought the STRANGEST TECH on the Internet. => Online Purchase of Unusual Technology.
+15 Emerging Technologies that Will Change the World => 15 Technologies That May Have an Impact on Society
+Toxicologist Answers More Poison Questions From Twitter | Tech Support | WIRED => Toxicologist Responds to Poison Inquiries on Twitter
+Dope Tech: The Most Extreme Gaming Monitor! => New Gaming Monitor Review
+Cool Tech Under $50 - August! => Affordable Gadgets for August
+Cool Back to School Tech 2022 🔥 (Under $100) => Affordable Technology for School in 2022
+Best Tech/EDC Gifts Under $50 for Father&#39;s Day! - Gift Guide 2022 => Father's Day Gift Guide for Tech and EDC Items Under $50 - 2022
+My Massive Tech Unboxing 47.0! => Unboxing Various Tech Items
+Why Millennials Are Leaving Six-Figure Tech Jobs => Analysis of Millennial Job Choices in the Tech Industry
+10 Coolest Gadgets and Inventions That Will Blow Your Mind => Gadgets and Inventions You Might Find Interesting
+17 Coolest Gadgets You Can Actually Buy => List of Gadgets Available for Purchase
+Almost EVERYONE is Wasting Money on Dash Cams. => Dash Cams: A Common Financial Mistake.
+I bought the THINNEST Tech in the world. => New technology purchase.
+iPhone 14 Lineup is NOT what you Expected.. (plot twist) => New iPhone Models Have Surprising Features
+Doctor Answers Gut Questions From Twitter | Tech Support | WIRED => Q&A Session with a Doctor on Gut Health
+Cool Tech Under $50 - July! => Affordable Gadgets for the Month of July
+Wolfgang Puck Answers Restaurant Questions From Twitter | Tech Support | WIRED => Wolfgang Puck Responds to Inquiries About His Restaurant on Twitter
+Battle Of The Tech - Super Bike Vs World Superbike => Comparison of Two Types of Motorcycles
+OnePlus 10R vs 10T | Unboxing &amp; Comparison => Comparison of OnePlus 10R and 10T through unboxing.
+Tech Hiring Slowdown: What’s Different This Time? | Tech News Briefing Podcast | WSJ => Tech News Briefing Podcast Discusses Slowdown in Tech Hiring
+10 New Tech Gadgets 2022 | You Can Buy Right Now => New Tech Gadgets for 2022
+Taste Expert Answers Questions From Twitter | Tech Support | WIRED => Taste Expert Responds to Inquiries on Social Media | Technical Assistance | WIRED
+Audiologist Answers Hearing Questions From Twitter | Tech Support | WIRED => Audiologist Responds to Twitter Inquiries About Hearing | Technical Assistance | WIRED
+James Dyson Answers Design Questions From Twitter | Tech Support | WIRED => James Dyson Responds to Twitter Design Inquiries | Tech Help | WIRED
+My Massive Tech Unboxing 46.0! => Unboxing of Various Tech Items.
+Cool Tech Under $50 - April! => Affordable Technology for April - Under $50
+15 Emerging Technologies That Will Change Our World => List of 15 Upcoming Technologies
+Veterinarian Answers Pet Questions From Twitter | Tech Support | WIRED => Q&A Session with a Vet on Twitter | Technical Assistance | WIRED
+What Is The Best Position For Descending? | GCN Tech Clinic => Descending Position Tips | GCN Tech Clinic
+My Everyday Tech: 2022! => Tech Devices I Use Daily in 2022
+INVENTIONS OF THE FUTURE THAT WILL SOON BE AVAILABLE TO EVERYONE => New Inventions
+Twitter Whistleblower Accuses Company of Privacy, Security Issues | Tech News Briefing Podcast | WSJ => Tech News Briefing Podcast: Twitter Whistleblower Raises Concerns
+I Did a Terrible Job of This - Intel $5,000 Extreme Tech Upgrade => Intel Tech Upgrade
+Cool Tech Under $50 - June! => June's List of Tech Items Under $50
+18 DEADLY Tech Fails that need to be BANNED. => Tech Fails that should be Banned.
+Traceback (most recent call last):
+  File "/home/alex/git/YoutubeClickRepulser/data_to_csv.py", line 33, in <module>
+    title_data['completion'] = title_data.progress_apply(get_completion, axis=1)
+  File "/home/alex/miniconda3/envs/shell/lib/python3.10/site-packages/tqdm/std.py", line 814, in inner
+    return getattr(df, df_function)(wrapper, **kwargs)
+  File "/home/alex/miniconda3/envs/shell/lib/python3.10/site-packages/pandas/core/frame.py", line 9565, in apply
+    return op.apply().__finalize__(self, method="apply")
+  File "/home/alex/miniconda3/envs/shell/lib/python3.10/site-packages/pandas/core/apply.py", line 746, in apply
+    return self.apply_standard()
+  File "/home/alex/miniconda3/envs/shell/lib/python3.10/site-packages/pandas/core/apply.py", line 873, in apply_standard
+    results, res_index = self.apply_series_generator()
+  File "/home/alex/miniconda3/envs/shell/lib/python3.10/site-packages/pandas/core/apply.py", line 889, in apply_series_generator
+    results[i] = self.f(v)
+  File "/home/alex/miniconda3/envs/shell/lib/python3.10/site-packages/tqdm/std.py", line 809, in wrapper
+    return func(*args, **kwargs)
+  File "/home/alex/git/YoutubeClickRepulser/data_to_csv.py", line 16, in get_completion
+    x = openai.ChatCompletion.create(
+  File "/home/alex/miniconda3/envs/shell/lib/python3.10/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "/home/alex/miniconda3/envs/shell/lib/python3.10/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "/home/alex/miniconda3/envs/shell/lib/python3.10/site-packages/openai/api_requestor.py", line 216, in request
+    result = self.request_raw(
+  File "/home/alex/miniconda3/envs/shell/lib/python3.10/site-packages/openai/api_requestor.py", line 516, in request_raw
+    result = _thread_context.session.request(
+  File "/home/alex/miniconda3/envs/shell/lib/python3.10/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/alex/miniconda3/envs/shell/lib/python3.10/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/alex/miniconda3/envs/shell/lib/python3.10/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/home/alex/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/home/alex/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/alex/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "/home/alex/miniconda3/envs/shell/lib/python3.10/http/client.py", line 1374, in getresponse
+    response.begin()
+  File "/home/alex/miniconda3/envs/shell/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/home/alex/miniconda3/envs/shell/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/home/alex/miniconda3/envs/shell/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "/home/alex/miniconda3/envs/shell/lib/python3.10/ssl.py", line 1274, in recv_into
+    return self.read(nbytes, buffer)
+  File "/home/alex/miniconda3/envs/shell/lib/python3.10/ssl.py", line 1130, in read
+    return self._sslobj.read(len, buffer)
+KeyboardInterrupt
+/home/alex/git/YoutubeClickRepulser/data_to_csv.py:32: FutureWarning: In a future version of pandas all arguments of DataFrame.drop except for the argument 'labels' will be keyword-only.
+  title_data.drop(title_data.columns.difference(['prompt']), 1, inplace=True)
+  0%|          | 0/1881 [00:00<?, ?it/s]Apple Pay Is Killing the Physical Wallet After Only Eight Years | Tech News Briefing Podcast | WSJ => Apple Pay and the Decline of Physical Wallets | Tech News Briefing Podcast | WSJ
+  0%|          | 2/1881 [00:01<19:52,  1.58it/s]The most EXPENSIVE thing I own. => My possessions and their monetary value.
+  0%|          | 3/1881 [00:01<17:47,  1.76it/s]My New House Gaming Setup is SICK! => Tour of My Gaming Room
+  0%|          | 4/1881 [00:02<16:43,  1.87it/s]Petrol Vs Liquid Nitrogen | Freezing Experiment | പെട്രോളിനെ ഐസ് ആകാൻ പറ്റുമോ | M4 Tech | => Comparison of Petrol and Liquid Nitrogen in a Freezing Experiment
+  0%|          | 5/1881 [00:03<19:40,  1.59it/s]Best Back to School Tech 2022! => School Supplies for the Upcoming Year
+  0%|          | 6/1881 [00:03<21:23,  1.46it/s]Brewmaster Answers Beer Questions From Twitter | Tech Support | WIRED => Brewmaster Responds to Inquiries About Beer on Social Media | Technical Assistance | WIRED
+  0%|          | 7/1881 [00:04<26:08,  1.19it/s]Tech Monopolies: Last Week Tonight with John Oliver (HBO) => Discussion on Technology Companies' Dominance: Last Week Tonight with John Oliver (HBO)
+  0%|          | 8/1881 [00:06<29:28,  1.06it/s]I bought the STRANGEST TECH on the Internet. => Online Purchase of Unusual Technology.
+  0%|          | 9/1881 [00:06<28:09,  1.11it/s]15 Emerging Technologies that Will Change the World => 15 Technologies That May Have an Impact on Society
+  1%|          | 10/1881 [00:07<27:33,  1.13it/s]Toxicologist Answers More Poison Questions From Twitter | Tech Support | WIRED => Toxicologist Responds to Poison Inquiries on Twitter
+  1%|          | 11/1881 [00:08<26:53,  1.16it/s]Dope Tech: The Most Extreme Gaming Monitor! => New Gaming Monitor Review
+  1%|          | 12/1881 [00:09<23:55,  1.30it/s]Cool Tech Under $50 - August! => Affordable Gadgets for August
+  1%|          | 13/1881 [00:10<24:57,  1.25it/s]Cool Back to School Tech 2022 🔥 (Under $100) => Affordable Technology for School in 2022
+  1%|          | 14/1881 [00:10<24:41,  1.26it/s]Best Tech/EDC Gifts Under $50 for Father&#39;s Day! - Gift Guide 2022 => Father's Day Gift Guide for Tech and EDC Items Under $50 - 2022
+  1%|          | 15/1881 [00:11<27:09,  1.15it/s]My Massive Tech Unboxing 47.0! => Unboxing Various Tech Items
+  1%|          | 16/1881 [00:12<23:24,  1.33it/s]Why Millennials Are Leaving Six-Figure Tech Jobs => Analysis of Millennial Job Choices in the Tech Industry
+  1%|          | 17/1881 [00:13<24:00,  1.29it/s]10 Coolest Gadgets and Inventions That Will Blow Your Mind => Gadgets and Inventions You Might Find Interesting
+  1%|          | 18/1881 [00:13<24:01,  1.29it/s]17 Coolest Gadgets You Can Actually Buy => List of Gadgets Available for Purchase
+  1%|          | 19/1881 [00:14<25:05,  1.24it/s]Almost EVERYONE is Wasting Money on Dash Cams. => Dash Cams: A Common Financial Mistake.
+  1%|          | 20/1881 [00:15<25:19,  1.22it/s]I bought the THINNEST Tech in the world. => New technology purchase.
+  1%|          | 21/1881 [00:16<22:22,  1.39it/s]iPhone 14 Lineup is NOT what you Expected.. (plot twist) => New iPhone Models Have Surprising Features
+  1%|          | 22/1881 [00:17<23:37,  1.31it/s]Doctor Answers Gut Questions From Twitter | Tech Support | WIRED => Q&A Session with a Doctor on Gut Health
+  1%|          | 23/1881 [00:17<24:18,  1.27it/s]Cool Tech Under $50 - July! => Affordable Gadgets for the Month of July
+  1%|▏         | 24/1881 [00:18<24:47,  1.25it/s]Wolfgang Puck Answers Restaurant Questions From Twitter | Tech Support | WIRED => Wolfgang Puck Responds to Inquiries About His Restaurant on Twitter
+  1%|▏         | 25/1881 [00:19<27:49,  1.11it/s]Battle Of The Tech - Super Bike Vs World Superbike => Comparison of Two Types of Motorcycles
+  1%|▏         | 26/1881 [00:20<23:56,  1.29it/s]OnePlus 10R vs 10T | Unboxing &amp; Comparison => Comparison of OnePlus 10R and 10T through unboxing.
+  1%|▏         | 27/1881 [00:21<25:09,  1.23it/s]Tech Hiring Slowdown: What’s Different This Time? | Tech News Briefing Podcast | WSJ => Tech News Briefing Podcast Discusses Slowdown in Tech Hiring
+  1%|▏         | 28/1881 [00:22<24:54,  1.24it/s]10 New Tech Gadgets 2022 | You Can Buy Right Now => New Tech Gadgets for 2022
+  2%|▏         | 29/1881 [00:22<24:55,  1.24it/s]Taste Expert Answers Questions From Twitter | Tech Support | WIRED => Taste Expert Responds to Inquiries on Social Media | Technical Assistance | WIRED
+  2%|▏         | 30/1881 [00:23<27:56,  1.10it/s]Audiologist Answers Hearing Questions From Twitter | Tech Support | WIRED => Audiologist Responds to Twitter Inquiries About Hearing | Technical Assistance | WIRED
+  2%|▏         | 31/1881 [00:25<30:29,  1.01it/s]James Dyson Answers Design Questions From Twitter | Tech Support | WIRED => James Dyson Responds to Twitter Design Inquiries | Tech Assistance | WIRED
+  2%|▏         | 32/1881 [00:26<31:55,  1.04s/it]My Massive Tech Unboxing 46.0! => Unboxing of Various Tech Items.
+  2%|▏         | 33/1881 [00:26<26:59,  1.14it/s]Cool Tech Under $50 - April! => Affordable Technology for April - Under $50
+  2%|▏         | 34/1881 [00:27<27:32,  1.12it/s]15 Emerging Technologies That Will Change Our World => List of 15 Upcoming Technologies
+  2%|▏         | 35/1881 [00:28<27:13,  1.13it/s]Veterinarian Answers Pet Questions From Twitter | Tech Support | WIRED => Q&A Session with a Vet on Twitter | Technical Assistance | WIRED
+  2%|▏         | 36/1881 [00:29<28:53,  1.06it/s]What Is The Best Position For Descending? | GCN Tech Clinic => Descending Position Tips | GCN Tech Clinic
+  2%|▏         | 37/1881 [00:30<27:20,  1.12it/s]My Everyday Tech: 2022! => Tech Devices I Use Daily in 2022
+  2%|▏         | 38/1881 [00:31<26:44,  1.15it/s]INVENTIONS OF THE FUTURE THAT WILL SOON BE AVAILABLE TO EVERYONE => New Inventions
+  2%|▏         | 39/1881 [00:31<23:16,  1.32it/s]Twitter Whistleblower Accuses Company of Privacy, Security Issues | Tech News Briefing Podcast | WSJ => Tech News Briefing Podcast: Twitter Whistleblower Raises Concerns
+  2%|▏         | 40/1881 [00:32<27:28,  1.12it/s]I Did a Terrible Job of This - Intel $5,000 Extreme Tech Upgrade => Intel Tech Upgrade
+  2%|▏         | 41/1881 [00:33<23:53,  1.28it/s]Cool Tech Under $50 - June! => June's List of Tech Items Under $50
+  2%|▏         | 42/1881 [00:34<24:10,  1.27it/s]18 DEADLY Tech Fails that need to be BANNED. => Tech Fails that should be banned.
+  2%|▏         | 43/1881 [00:35<24:21,  1.26it/s]I bought the BIGGEST Tech in the world. => Purchasing a Large Piece of Technology.
+  2%|▏         | 44/1881 [00:35<24:56,  1.23it/s]Neil Gaiman Answers Mythology Questions From Twitter | Tech Support | WIRED => Neil Gaiman Responds to Twitter Questions About Mythology
+  2%|▏         | 45/1881 [00:36<24:47,  1.23it/s]Sushi Chef Answers Sushi Questions From Twitter | Tech Support | WIRED => Sushi Chef Responds to Twitter Inquiries About Sushi | Technical Assistance | WIRED
+  2%|▏         | 46/1881 [00:37<27:31,  1.11it/s]Futurum Research&#39;s Daniel Newman breaks down tech stocks to watch => Analysis of Technology Stocks by Daniel Newman
+  2%|▏         | 47/1881 [00:38<26:41,  1.15it/s]My Favorite Tech of the Month! => Tech Review for the Month
+  3%|▎         | 48/1881 [00:39<22:59,  1.33it/s]Paleontologist Answers Dinosaur Questions From Twitter | Tech Support | WIRED => Paleontologist Talks About Dinosaurs on Twitter | WIRED
+  3%|▎         | 49/1881 [00:39<23:30,  1.30it/s]How Biden&#39;s student loan forgiveness program will work => Biden's Explanation of Student Loan Forgiveness Program
+  3%|▎         | 50/1881 [00:40<24:46,  1.23it/s]Primary results in New York and Florida hold national implications for Democrats => Analysis of Primary Results in New York and Florida
+  3%|▎         | 51/1881 [00:41<25:00,  1.22it/s]Ex-CIA director predicts what&#39;s next in Russia-Ukraine war => Analysis of the current state of the conflict between Russia and Ukraine
+  3%|▎         | 52/1881 [00:42<25:05,  1.21it/s]President Zelenskyy promises victory over Russia on Ukrainian Independence Day => Political figure makes promise on national holiday
+  3%|▎         | 53/1881 [00:43<25:10,  1.21it/s]6 months later, what&#39;s next in the Ukraine war? l ABC News => Update on Ukraine Conflict
+  3%|▎         | 54/1881 [00:43<22:07,  1.38it/s]More than 700 pages of classified documents found at Mar-a-Lago => Document Discovery at Mar-a-Lago
+  3%|▎         | 55/1881 [00:44<23:28,  1.30it/s]Nadler Celebrates Win In New York House Primary => Nadler's Political Victory in New York
+  3%|▎         | 56/1881 [00:45<23:34,  1.29it/s]Biden Announces Plan For Federal Student Loan Debt Relief => Biden's Proposal for Reducing Federal Student Loan Debt
+  3%|▎         | 57/1881 [00:46<23:40,  1.28it/s]Morning News NOW Full Broadcast - Aug. 23 => Aug. 23 Morning News NOW Broadcast
+  3%|▎         | 58/1881 [00:47<24:13,  1.25it/s]Biden plans to forgive $300 billion in student loan debt: Report => Biden's proposal for student loan forgiveness
+  3%|▎         | 59/1881 [00:47<24:19,  1.25it/s]ABC News Live: Trump files motion to bar review of materials seized from Mar-a-Lago => Legal Motion Filed by Trump to Prevent Review of Mar-a-Lago Materials
+  3%|▎         | 60/1881 [00:49<27:36,  1.10it/s]More than 100 classified Trump docs recovered from Mar-a-Lago in January => Recovered documents found at Mar-a-Lago in January
+  3%|▎         | 61/1881 [00:49<26:59,  1.12it/s]National Shutdown | Workers hit the streets over rising cost of living: Pretoria, GP => Workers Protest in Pretoria
+  3%|▎         | 62/1881 [00:50<23:32,  1.29it/s]JORNAL DA MANHÃ - 24/08/2022 => Morning News - 08/24/2022
+  3%|▎         | 63/1881 [00:51<23:54,  1.27it/s]Trump legal team trying to stop Department of Justice from reviewing records seized from Mar-a-Lago => Legal battle over records from Mar-a-Lago
+  3%|▎         | 64/1881 [00:52<24:44,  1.22it/s]Netanyahu: This will make the Middle East a nuclear powder keg => Political Leader Discusses Potential Nuclear Tensions in Middle East
+  3%|▎         | 65/1881 [00:52<24:20,  1.24it/s]Nightly News Full Broadcast - Aug. 19 => Aug. 19 Nightly News Full Broadcast
+  4%|▎         | 66/1881 [00:53<25:07,  1.20it/s]Americans Are Angry And Worried About U.S. Future, New NBC News Poll Shows => NBC News Poll Reveals American Concerns for Future
+  4%|▎         | 67/1881 [00:54<24:08,  1.25it/s]Breaking News: Jharkhand के CM Hemant Soren के करीबी पर ED ने कसी नकेल | Prem Prakash | Ranchi News => Local politician faces investigation by government agency
+  4%|▎         | 68/1881 [00:55<24:20,  1.24it/s]Zee Hindustan Live News: Attack On Nitish Kumar Convoy | Bihar News | Tejashwi Yadav |Bihar Politics => Zee Hindustan Live News: Nitish Kumar Convoy Attacked in Bihar
+  4%|▎         | 69/1881 [00:56<27:43,  1.09it/s]【ライブ】最新ニュース：ウクライナ侵攻から半年/ロシア軍ミサイル攻撃の可能性/プーチン氏に近い思想家の娘 爆発死/サルVS山羊/渋谷ホテルで火災/母娘刺傷続報　など（日テレNEWSLIVE） => Latest News: Ukraine Invasion After 6 Months/Russian Missile Attack Possibility/Explosion Death of Putin's Ideologist's Daughter/Monkey VS Goat/Shibuya Hotel Fire/Mother and Daughter Stabbing Update, etc. (NTV NEWS LIVE)
+  4%|▎         | 70/1881 [00:59<41:19,  1.37s/it]අද දෙරණ 6.55 ප්‍රධාන පුවත් විකාශය -  2022.08.24| Ada Derana Prime Time News Bulletin => News Update for August 24th, 2022 on Ada Derana Prime Time
+  4%|▍         | 71/1881 [01:00<39:50,  1.32s/it]Najib ke penjara, Mahkamah Persekutuan kekal sabitan => Najib's Imprisonment, Federal Court Upholds Conviction
+  4%|▍         | 72/1881 [01:01<38:22,  1.27s/it]Deadly car bomb detonates outside Moscow => Explosive device causes destruction in Russian city
+  4%|▍         | 73/1881 [01:02<34:00,  1.13s/it]Jail for Najib as Federal Court upholds ex-PM’s conviction => Legal decision regarding former Malaysian Prime Minister's conviction upheld
+  4%|▍         | 74/1881 [01:03<31:35,  1.05s/it]Potential mass shooting foiled in Washington state => Local authorities prevent possible violent incident in Washington
+  4%|▍         | 75/1881 [01:03<29:02,  1.04it/s]🔴 හිරු රාත්‍රී 6.55 ප්‍රධාන ප්‍රවෘත්ති ප්‍රකාශය - Hiru TV NEWS 6:55 PM Live | 2022-08-24 => Hiru TV NEWS 6:55 PM Live | 2022-08-24
+  4%|▍         | 76/1881 [01:04<30:11,  1.00s/it]Nightly News Full Broadcast - Aug. 18 => Aug. 18 Nightly News Full Broadcast
+  4%|▍         | 77/1881 [01:05<28:23,  1.06it/s]Morning News NOW Full Broadcast - Aug. 19 => Aug. 19 Morning News NOW Broadcast
+  4%|▍         | 78/1881 [01:06<26:52,  1.12it/s]Ukraine&#39;s Crimean fightback having &#39;psychological impact&#39; on Russia - BBC News => Ukraine's Response to Crimea Affecting Russia Mentally - BBC News
+  4%|▍         | 79/1881 [01:07<30:02,  1.00s/it]Dobol B TV Livestream: August 22, 2022 - Replay => Dobol B TV Livestream Replay
+  4%|▍         | 80/1881 [01:08<27:57,  1.07it/s]🔴 Live at 8 ප්‍රධාන ප්‍රවෘත්ති විකාශය - 2022-08-24 => Live stream of a meeting on August 24th, 2022 at 8 PM.
+  4%|▍         | 81/1881 [01:09<30:33,  1.02s/it]Nightly News Full Broadcast - Aug. 17 => Aug. 17 Nightly News Broadcast
+  4%|▍         | 82/1881 [01:10<28:36,  1.05it/s]UP News: कहा गायब हो गया Abbas Ansari ? 7 राज्यों में पुलिस की आधा दर्जन टीमें कर रही तलाश => Abbas Ansari's Disappearance and Police Search in 7 States
+  4%|▍         | 83/1881 [01:11<30:30,  1.02s/it]Daughter of Russian ultra-nationalist killed in suspected car bomb attack => Report on Alleged Car Bombing Incident Involving Daughter of Russian Ultra-Nationalist
+  4%|▍         | 84/1881 [01:12<30:48,  1.03s/it]18 Million Under Flood Alerts Nationwide => National Flood Alerts Affecting 18 Million People
+  5%|▍         | 85/1881 [01:13<28:55,  1.03it/s]🔴 Live at 12 ප්‍රධාන ප්‍රවෘත්ති විකාශය - 2022-08-24 => Live stream of a meeting on August 24th, 2022 at 12 PM in Sri Lanka.
+  5%|▍         | 86/1881 [01:14<30:13,  1.01s/it]Inside the war in Ukraine, 6 months since Russia invaded => Update on Ukraine conflict
+  5%|▍         | 87/1881 [01:15<25:51,  1.16it/s]T. Raja Singh News: T. Raja Singh को जमानत मिली, टी राजा ने दिया था विवादित बयान| Latest News => T. Raja Singh granted bail after controversial statement | Latest News
+  5%|▍         | 88/1881 [01:16<25:23,  1.18it/s]Why Netflix is Now Making Video Games => Netflix's Decision to Enter the Video Game Industry
+  5%|▍         | 89/1881 [01:16<24:21,  1.23it/s]My New House Gaming Setup is SICK! => Tour of My Gaming Room
+  5%|▍         | 90/1881 [01:17<21:24,  1.39it/s]ROBLOX ATHLETES TYCOON => Managing a virtual sports team in Roblox
+  5%|▍         | 91/1881 [01:18<22:32,  1.32it/s]Naik Wahana Roller Coaster! - Runner Coaster => Riding a Roller Coaster at Runner Coaster
+  5%|▍         | 92/1881 [01:18<23:05,  1.29it/s]I OPENED MY OWN ARCADE SHOP => New Business Venture: Arcade Shop
+  5%|▍         | 93/1881 [01:19<23:55,  1.25it/s][VOD 7] DU SANG ET DES CRÂNES ! Campagne légendaire Valkia sur Immortal Empire => Gameplay footage of Valkia's legendary campaign on Immortal Empire involving blood and skulls.
+  5%|▍         | 94/1881 [01:20<26:31,  1.12it/s]What in FORTNITE is DRAGON BALL Z?! (Quests) K-CITY GAMING => Gameplay of Fortnite and Dragon Ball Z Quests by K-City Gaming
+  5%|▌         | 95/1881 [01:21<28:35,  1.04it/s]Tonnenweise GANZ NEUE Games, Monkey Island 5 Release uvm. - Opening Night Live | gamescom 2022 => New Games and Monkey Island 5 Release at Opening Night Live | gamescom 2022
+  5%|▌         | 96/1881 [01:23<30:17,  1.02s/it]Free Fire | Bất Ngờ Nhận FREE 900 Kim Cương Mua Đồ Cực Ngon - Garena Hứa Sẽ Sửa Vòng Quay Ma Thuật => Receive 900 Diamonds for Free in Free Fire and Garena Promises to Fix Magic Wheel
+  5%|▌         | 97/1881 [01:24<31:04,  1.05s/it]10 Infuriating Ways Video Games Stopped You From Getting 100% => Video Game Obstacles to Achieving 100%
+  5%|▌         | 98/1881 [01:25<29:15,  1.02it/s]Farming Simulator 22 #13 - Khi Xe Bán Tải Chở Quá Tải !! => Overloaded Pickup Truck in Farming Simulator 22 #13
+  5%|▌         | 99/1881 [01:25<27:55,  1.06it/s]Secret Hidden Oven Entrance to Epic GAMING FORT! => Entrance to Gaming Fort
+  5%|▌         | 100/1881 [01:26<23:35,  1.26it/s]🔥Artistic Music Mix 2022: Top 50 Songs ♫ Best NCS Gaming Music ♫ Best Of EDM Remixes 2022 => Music Mix 2022: Top 50 Songs
+  5%|▌         | 101/1881 [01:27<24:25,  1.21it/s]Free Fire | We Got Level 1 Ghost Id 😨With 9999 Badges😍 Wasting 10,000 Diamonds 💎-Garena Free Fire => Garena Free Fire Gameplay Video
+  5%|▌         | 102/1881 [01:27<21:37,  1.37it/s]gaming in the future => Gaming Trends for the Next Decade
+  5%|▌         | 103/1881 [01:28<21:59,  1.35it/s]The *DESTINY* Challenge in Fortnite! => Playing a Video Game Challenge
+  6%|▌         | 104/1881 [01:29<20:14,  1.46it/s]7 Reasons The Gaming Industry Is Broken => Analysis of Gaming Industry Issues
+  6%|▌         | 105/1881 [01:29<18:52,  1.57it/s]GTA 5 CAN CHOP COMPLETE THIS INSANE IMPOSSIBLE STUNT RACE => Attempt at Difficult Race in GTA 5
+  6%|▌         | 106/1881 [01:30<19:57,  1.48it/s]🎧 FOLLOW ME ON LOCO | ACHANAK BAYANAK GAMING => Playing video games on Loco with Achanak Bayanak
+  6%|▌         | 107/1881 [01:31<21:03,  1.40it/s]Finally Improved it ! Lenovo Ideapad Gaming 3 2022 |  i5 12th gen RTX 3050 => Lenovo Ideapad Gaming 3 Upgrade
+  6%|▌         | 108/1881 [01:32<22:02,  1.34it/s]NO STREAM FOR 3 DAYS | KYA AAJ 35 KILLS HONGE | GODL LoLzZz | BGMI LIVE => 3 Days Without Streaming | Possible 35 Kills | Godl LoLzZz | BGMI Live
+  6%|▌         | 109/1881 [01:33<26:07,  1.13it/s]🔴SHORT STREAM OR WHAT??😱| BGMI LIVE => Short stream playing BGMI.
+  6%|▌         | 110/1881 [01:33<22:29,  1.31it/s]GTA 5 ONLINE : RAMP BUGGY VS DRAUGUR (WHICH IS BEST OFF ROAD VEHICLE?) => Comparison of two off-road vehicles in GTA 5 online.
+  6%|▌         | 111/1881 [01:34<22:41,  1.30it/s]Mylta Power Station Long drive &amp; Night Food Party Vlog | RON GAMING VLOGS => Driving to a Power Station and Eating at Night | Ron Gaming Vlogs
+  6%|▌         | 112/1881 [01:35<26:05,  1.13it/s]ASMR Gaming 😴 Fortnite Tryhard Squad Win! Relaxing Gum Chewing 🎮🎧 Controller Sounds 💤 => Fortnite Gaming Video with ASMR and Gum Chewing Sounds
+  6%|▌         | 113/1881 [01:36<25:34,  1.15it/s]15 Graphically MIND-BLOWING Games of 2022 => Upcoming Video Games for 2022
+  6%|▌         | 114/1881 [01:37<24:56,  1.18it/s]RP ගේ පේජ් එකට මොකද උනේ 😥 | අලුත් පේජ් එක | Rp gaming => RP Gaming's Latest Video
+  6%|▌         | 115/1881 [01:37<21:26,  1.37it/s]The FIRST 42-inch OLED Gaming Monitor - PG42UQ => New Gaming Monitor Released
+  6%|▌         | 116/1881 [01:38<19:32,  1.51it/s]Gaming Memes Only True Gamers Understand 84 #Memes #shorts => Gaming Memes Only True Gamers Understand 84 #Memes #shorts
+  6%|▌         | 117/1881 [01:39<24:15,  1.21it/s]اصعب لعبة جوال تخليك تعصب ضحك وتحشيش => The Hardest Mobile Game That Makes You Angry, Laugh, and Joke
+  6%|▋         | 118/1881 [01:40<27:45,  1.06it/s]TOP 5 BEST GAMING PHONE UNDER 15,000/- RS FOR PUBG &amp; BGMI | GAMING PHONE UNDER 15k FOR PUBG &amp; BGMI => List of Affordable Gaming Phones for PUBG and BGMI
+  6%|▋         | 119/1881 [01:41<26:12,  1.12it/s]Si SQUIDWARD At Si DREAM Nandito Sa ROBLOX BACKROOM MORPHS!!? => Squidward and Dream play Roblox morphs in the backroom.
+  6%|▋         | 120/1881 [01:42<28:07,  1.04it/s]New PS4 &amp; PS5 Games This Week => Upcoming Releases for PlayStation Consoles
+  6%|▋         | 121/1881 [01:43<26:36,  1.10it/s]GTA 5 : WHO KIDNAPPED TREVOR | GTA 5 BANGLA GAMEPLAY #77 | GAMING FUN TIPS => Gameplay of GTA 5 where Trevor gets kidnapped.
+  6%|▋         | 122/1881 [01:44<26:34,  1.10it/s]I CAUGHT KARL the Haunted Car in The Long Drive Mods?! => Modifying a Car in The Long Drive
+  7%|▋         | 123/1881 [01:45<25:32,  1.15it/s]This Budget Gaming Laptop Can’t Be Beat! => Review of a Low-Cost Gaming Laptop
+  7%|▋         | 124/1881 [02:46<9:17:30, 19.04s/it]PlayStation 5 Review: Next Gen Gaming! => Review of PlayStation 5 for Gaming
+  7%|▋         | 125/1881 [02:47<6:37:10, 13.57s/it]The Story of Super Mario World | Gaming Historian => Super Mario World History
+  7%|▋         | 126/1881 [02:47<4:42:06,  9.64s/it]PESA HO TO KIA KUCH NAHI HO SAKTA | GTA 5 | SHADOW GAMING => PESA HO TO KIA KUCH NAHI HO SAKTA | GTA 5 | SHADOW GAMING
+  7%|▋         | 127/1881 [02:49<3:29:02,  7.15s/it]Roblox - BẤT NGỜ KHI GAME NARUTO CÓ SỨC MẠNH TRÁI ÁC QUỶ HITO MODEL NIKA CỦA LUFFY - Shindo Life => Gameplay of Roblox's Shindo Life featuring Naruto, Hito Model Nika, and Luffy's Devil Fruit Power
+  7%|▋         | 128/1881 [02:50<2:38:28,  5.42s/it]Rich Gamer Vs Broke Gamer => Comparison of Financial Status in Gaming Community
+  7%|▋         | 129/1881 [02:51<1:57:36,  4.03s/it]Music Mix 2022 🎧 EDM Remixes of Popular Songs 🎧 EDM Gaming Music Mix ​ => 2022 Music Mix with EDM Remixes and Gaming Music
+  7%|▋         | 130/1881 [02:52<1:29:19,  3.06s/it]ASMR Gaming 😴 Fortnite 1 Kill = 1 Trigger Relaxing Mouth Sounds 🎮🎧 Controller Sounds + Whispering 💤 => Fortnite ASMR with Mouth and Controller Sounds
+  7%|▋         | 131/1881 [02:52<1:09:13,  2.37s/it]1000 IQ Moments in Sports => Compilation of Smart Moves in Athletic Activities
+  7%|▋         | 132/1881 [02:53<55:43,  1.91s/it]  Chelsea v. Tottenham Hotspur | PREMIER LEAGUE HIGHLIGHTS | 8/14/2022 | NBC Sports => Premier League Highlights: Chelsea vs Tottenham Hotspur on NBC Sports
+  7%|▋         | 133/1881 [02:54<48:39,  1.67s/it]Beach Bunny - Sports (Official Audio) => Audio of a song called 'Sports' by Beach Bunny
+  7%|▋         | 134/1881 [02:55<40:51,  1.40s/it]Team USA SHOCKS JAMAICA for women&#39;s 4x100 world title | NBC Sports => Women's 4x100 World Title Won by Team USA on NBC Sports
+  7%|▋         | 135/1881 [02:56<37:51,  1.30s/it]Craziest &quot;You Have to See It to Believe It&quot; Moments in Sports History => Moments in Sports History
+  7%|▋         | 136/1881 [02:57<31:00,  1.07s/it]All Sports Baseball Battle | Dude Perfect => Sports Game Featuring Baseball | Group of Guys Perfect
+  7%|▋         | 137/1881 [02:57<28:36,  1.02it/s]Impossible Moments in Sports => Sports Moments That May or May Not Have Happened
+  7%|▋         | 138/1881 [02:58<26:56,  1.08it/s]Manchester United v. Liverpool | PREMIER LEAGUE HIGHLIGHTS | 8/22/2022 | NBC Sports => Premier League Soccer Match Highlights
+  7%|▋         | 139/1881 [02:59<26:11,  1.11it/s]Top 100 Sports Plays of the Decade | 2010 - 2019 Best Moments => Compilation of Sports Plays from 2010 to 2019
+  7%|▋         | 140/1881 [03:00<25:29,  1.14it/s]Craziest &quot;Karma/Revenge&quot; Moments in Sports History => Karma and Revenge in Sports History.
+  7%|▋         | 141/1881 [03:01<24:45,  1.17it/s]All Sports Golf Battle at The Masters => Sports Golf Tournament at The Masters
+  8%|▊         | 142/1881 [03:02<24:27,  1.19it/s]Bournemouth v. Arsenal | PREMIER LEAGUE HIGHLIGHTS | 8/20/2022 | NBC Sports => Bournemouth v. Arsenal | PREMIER LEAGUE HIGHLIGHTS | 8/20/2022 | NBC Sports
+  8%|▊         | 143/1881 [03:03<30:04,  1.04s/it]High IQ Moments in Sports => Sports Moments with Above Average Intelligence
+  8%|▊         | 144/1881 [03:04<28:00,  1.03it/s]Liverpool v. Crystal Palace | PREMIER LEAGUE HIGHLIGHTS | 8/15/2022 | NBC Sports => Premier League Highlights: Liverpool vs. Crystal Palace on NBC Sports
+  8%|▊         | 145/1881 [03:05<27:16,  1.06it/s]Impossible Sports Moments => Sports Moments
+  8%|▊         | 146/1881 [03:05<23:22,  1.24it/s]Best Of Boxing 2021 | Full Episode | SHOWTIME SPORTS => Boxing Highlights 2021
+  8%|▊         | 147/1881 [03:06<20:33,  1.41it/s]Craziest &quot;1 in a Trillion&quot; Moments in Sports History => Sports Moments Compilation
+  8%|▊         | 148/1881 [03:06<18:41,  1.55it/s]Newcastle United v. Manchester City | PREMIER LEAGUE HIGHLIGHTS | 8/21/2022 | NBC Sports => Premier League Soccer Match Highlights
+  8%|▊         | 149/1881 [03:07<20:57,  1.38it/s]All Sports Trick Shots | Dude Perfect => Various Athletic Maneuvers Displayed by a Group of Men
+  8%|▊         | 150/1881 [03:08<21:34,  1.34it/s]Greatest World Records in Sport History => Compilation of Sports Records
+  8%|▊         | 151/1881 [03:08<20:06,  1.43it/s]Kentucky Derby 2022 (FULL RACE) | NBC Sports => Kentucky Derby 2022 (FULL RACE) | NBC Sports
+  8%|▊         | 152/1881 [03:10<24:00,  1.20it/s]20 TIMES SPORTS FANS TOOK IT WAY TOO FAR => Sports Fan Behavior Compilation
+  8%|▊         | 153/1881 [03:10<21:14,  1.36it/s]Craziest &quot;Deadly Fall&quot; Moments in Sports History => Compilation of Sports Falls
+  8%|▊         | 154/1881 [03:11<20:02,  1.44it/s]Top 100 Best Sports Bloopers 2020 => Compilation of Sports Mistakes and Errors in 2020
+  8%|▊         | 155/1881 [03:11<20:40,  1.39it/s]Leeds United v. Chelsea | PREMIER LEAGUE HIGHLIGHTS | 8/21/2022 | NBC Sports => Premier League Highlights: Leeds United vs. Chelsea on NBC Sports
+  8%|▊         | 156/1881 [03:12<21:03,  1.37it/s]Reactions after Manchester United take down Liverpool | Premier League | NBC Sports => Post-game thoughts on Manchester United vs Liverpool match
+  8%|▊         | 157/1881 [03:13<21:39,  1.33it/s]Tottenham Hotspur v. Wolves | PREMIER LEAGUE HIGHLIGHTS | 8/20/2022 | NBC Sports => Premier League Highlights: Tottenham Hotspur vs. Wolves on NBC Sports
+  8%|▊         | 158/1881 [03:14<23:04,  1.24it/s]All Sports Golf Battle 2 | Dude Perfect => Playing Golf with Different Sports Equipment | Group of Guys
+  8%|▊         | 159/1881 [03:15<23:17,  1.23it/s]Manchester City v. Bournemouth | PREMIER LEAGUE HIGHLIGHTS | 8/13/2022 | NBC Sports => Premier League Highlights: Manchester City vs. Bournemouth on NBC Sports
+  9%|▊         | 160/1881 [03:16<25:59,  1.10it/s]The Most Controversial Player in Sports => A Player in Sports
+  9%|▊         | 161/1881 [03:16<22:28,  1.28it/s]1 IN A TRILLION MOMENTS IN SPORTS => Compilation of Rare Sports Moments
+  9%|▊         | 162/1881 [03:17<20:10,  1.42it/s]BIGGEST Winners &amp; Losers From Friday&#39;s NFL Preseason Slate I CBS Sports HQ => NFL Preseason Recap I CBS Sports HQ
+  9%|▊         | 163/1881 [03:18<21:26,  1.34it/s]Viagra Boys - Sports (Official Video) => Viagra Boys - Sports (Official Video)
+  9%|▊         | 164/1881 [03:19<21:29,  1.33it/s]Manchester United v. Liverpool LIVE postgame Q&amp;A | Premier League | NBC Sports => Postgame Q&amp;A with Manchester United and Liverpool after Premier League match on NBC Sports
+  9%|▉         | 165/1881 [03:20<25:19,  1.13it/s]Canadian Ultimate Championships Juniors: Open Final | Ultimate Frisbee | CBC Sports => Junior Ultimate Frisbee Championship Final in Canada
+  9%|▉         | 166/1881 [03:21<24:22,  1.17it/s]Nintendo Switch Sports - Overview Trailer - Nintendo Switch => Overview of Nintendo Switch Sports Trailer
+  9%|▉         | 167/1881 [03:21<24:53,  1.15it/s]Funniest Sports Moments of the Year 2021 | Crazy Fan Moments, Epic Fails &amp; Blunders => Compilation of Sports Moments in 2021
+  9%|▉         | 168/1881 [03:22<23:55,  1.19it/s]The NFL Experience with Kai Nacua and Tyler Allgeier | BYU Sports Nation Full Episode 8.23.22 => BYU Sports Nation Full Episode 8.23.22 featuring NFL players
+  9%|▉         | 169/1881 [03:23<25:34,  1.12it/s]Craziest &quot;Thinking outside the Box&quot; Moments in Sports History => Sports Moments Outside the Box
+  9%|▉         | 170/1881 [03:24<22:02,  1.29it/s]Caicedo? Pulisic? Casemiro? | Who are Manchester United interested in signing? ✍️🔴 => Manchester United's Potential Signings
+  9%|▉         | 171/1881 [03:25<29:31,  1.04s/it]West Ham United v. Brighton | PREMIER LEAGUE HIGHLIGHTS | 8/21/2022 | NBC Sports => West Ham United v. Brighton | PREMIER LEAGUE HIGHLIGHTS | 8/21/2022 | NBC Sports
+  9%|▉         | 172/1881 [03:27<33:31,  1.18s/it]&quot;They can ******* play football…sorry&quot;😅 | Erik ten Hag reacts to his first Manchester United win => Erik ten Hag shares his thoughts on Manchester United victory
+  9%|▉         | 173/1881 [03:28<30:45,  1.08s/it]&quot;WE DONE IT BABY! 🇬🇧🇯🇲🏆 EPIC POST-FIGHT SCENES as Leon Edwards Becomes UFC Welterweight Champion => Leon Edwards Wins UFC Welterweight Championship
+  9%|▉         | 174/1881 [03:29<28:22,  1.00it/s]Reactions after Arsenal cruise past Bournemouth | Premier League | NBC Sports => Post-match analysis of Arsenal's win against Bournemouth
+  9%|▉         | 175/1881 [03:29<26:35,  1.07it/s]Sports Car Giant Test 2022 – Ferrari vs Porsche vs McLaren &amp; more! | CAR magazine (4K) => Comparison of Sports Cars in 2022
+  9%|▉         | 176/1881 [03:30<25:19,  1.12it/s]Most Embarrassing Moments in Sports - Funniest Moments in Sports History => Compilation of Sports Mishaps
+  9%|▉         | 177/1881 [03:31<21:40,  1.31it/s]Fulham v. Brentford | PREMIER LEAGUE HIGHLIGHTS | 8/20/2022 | NBC Sports => Fulham and Brentford play soccer on NBC Sports.
+  9%|▉         | 178/1881 [03:31<22:01,  1.29it/s]20 MUST SEE SPORTS MOMENTS => Compilation of Sports Highlights
+ 10%|▉         | 179/1881 [03:32<19:38,  1.44it/s]Arsenal v. Leicester City | PREMIER LEAGUE HIGHLIGHTS | 8/13/2022 | NBC Sports => Arsenal v. Leicester City | PREMIER LEAGUE HIGHLIGHTS | 8/13/2022 | NBC Sports
+ 10%|▉         | 180/1881 [03:33<25:12,  1.12it/s]How To Make a McDonald&#39;s Cheeseburger => Steps to Assemble a Fast Food Cheeseburger
+ 10%|▉         | 181/1881 [03:34<24:59,  1.13it/s]How to Beat the SMART FISH in COLD SKIN => Tips for Catching Fish in Cold Water
+ 10%|▉         | 182/1881 [03:35<23:57,  1.18it/s]How to Get Your Brain to Focus | Chris Bailey | TEDxManchester => Tips for Improving Your Concentration
+ 10%|▉         | 183/1881 [03:36<23:33,  1.20it/s]How To Make Every Sushi | Method Mastery | Epicurious => Making Sushi Tutorial
+ 10%|▉         | 184/1881 [03:36<20:39,  1.37it/s]COMMON LIVING ROOM DESIGN MISTAKES + HOW TO FIX THEM => Living Room Design Tips
+ 10%|▉         | 185/1881 [03:37<18:43,  1.51it/s]Body Language Expert Explains How to Show Confidence | WIRED => Tips on Displaying Confidence through Body Language
+ 10%|▉         | 186/1881 [03:37<19:51,  1.42it/s]Former FBI Agent Explains How to Read Body Language | Tradecraft | WIRED => Body Language Reading Tips by Ex-FBI Agent | WIRED
+ 10%|▉         | 187/1881 [03:38<21:10,  1.33it/s]Alexa Chung Learns How To Dress The French Way | ALEXACHUNG => Alexa Chung's Attempt at French Fashion | ALEXACHUNG
+ 10%|▉         | 188/1881 [03:39<22:15,  1.27it/s]How to Write Less but Say More | Jim VandeHei | TED => Tips for Reducing Word Count in Writing | Speaker: Jim VandeHei | TED Talk
+ 10%|█         | 189/1881 [03:40<25:07,  1.12it/s]How to gain control of your free time | Laura Vanderkam => Time Management Tips by Laura Vanderkam
+ 10%|█         | 190/1881 [03:41<23:59,  1.17it/s]How to Deal with Difficult People | Jay Johnson | TEDxLivoniaCCLibrary => Dealing with Difficult People
+ 10%|█         | 191/1881 [03:42<21:39,  1.30it/s]How to Raise Successful Kids -- Without Over-Parenting | Julie Lythcott-Haims | TED => Parenting Tips from Julie Lythcott-Haims | TED
+ 10%|█         | 192/1881 [03:42<21:44,  1.29it/s]How To Beat EVERY DEATH GAME In &quot;Die Now&quot; => Strategies for Winning in Die Now's Death Games
+ 10%|█         | 193/1881 [03:43<22:05,  1.27it/s]How To Fix a Water Damaged Laptop => Repairing a Laptop with Water Damage
+ 10%|█         | 194/1881 [03:44<21:53,  1.28it/s]How to Levitate => Basic Techniques for Levitation
+ 10%|█         | 195/1881 [03:45<19:32,  1.44it/s]How To BRAINWASH Yourself For Success &amp; Destroy NEGATIVE THOUGHTS! | Dr. Joe Dispenza => Methods for Mental Conditioning | Dr. Joe Dispenza
+ 10%|█         | 196/1881 [03:45<20:08,  1.39it/s]How To Beat EVERY $1,000,000,000 DEATH GAME In &quot;Zero&quot; => Strategies for Winning High-Stakes Games in Zero
+ 10%|█         | 197/1881 [03:46<20:39,  1.36it/s]Why You&#39;re Always Tired (and how to fix it) => Tips for Improving Your Energy Levels
+ 11%|█         | 198/1881 [03:47<21:38,  1.30it/s]How to Survive a Drone Swarm => Tips for Dealing with Multiple Drones
+ 11%|█         | 199/1881 [03:48<21:40,  1.29it/s]The first 20 hours -- how to learn anything | Josh Kaufman | TEDxCSU => How to spend 20 hours learning something
+ 11%|█         | 200/1881 [03:49<22:11,  1.26it/s]How To Master 5 Basic Cooking Skills | Gordon Ramsay => Basic Cooking Skills Tutorial with Gordon Ramsay
+ 11%|█         | 201/1881 [03:49<22:54,  1.22it/s]HOW2: How To Do 100 Things! [Saturday Supercut] => List of 100 things to do on a Saturday
+ 11%|█         | 202/1881 [03:50<22:46,  1.23it/s]How To Sell On Amazon As A Beginner Under 15 Minutes => Selling on Amazon for Beginners
+ 11%|█         | 203/1881 [03:51<19:54,  1.40it/s]How to Start a Blog in 2022 | By Sophia Lee => Starting a Blog Tutorial for Next Year by Sophia Lee
+ 11%|█         | 204/1881 [03:52<20:50,  1.34it/s]How To Be Effortlessly Confident => Tips for Improving Your Confidence
+ 11%|█         | 205/1881 [03:52<21:17,  1.31it/s]How to build a PC, the last guide you&#39;ll ever need! => PC Building Tutorial
+ 11%|█         | 206/1881 [03:53<19:31,  1.43it/s]How To Stop Overthinking => Methods for Reducing Excessive Rumination
+ 11%|█         | 207/1881 [03:54<20:55,  1.33it/s]How To ACTUALLY Get FREE Robux In Roblox! *EASY* => Roblox Robux Tutorial
+ 11%|█         | 208/1881 [03:54<18:45,  1.49it/s]Cake Rescue from Cake Fail to Nailed It | How To Cook That Ann Reardon => Attempting to Fix a Cake Mishap with Ann Reardon
+ 11%|█         | 209/1881 [03:55<20:01,  1.39it/s]27 EASY MAGIC TRICKS => 27 Basic Magic Tricks
+ 11%|█         | 210/1881 [03:56<18:00,  1.55it/s]How to Kill Pennywise | NowThis Nerd => Methods for Eliminating Pennywise | NowThis Nerd
+ 11%|█         | 211/1881 [03:56<19:03,  1.46it/s]27 CLEANING TIPS THAT WILL SAVE YOU LOTS OF MONEY => Tips for Cleaning to Save Money
+ 11%|█▏        | 212/1881 [03:57<20:55,  1.33it/s]How to Discover Your Authentic Self -- at Any Age | Bevy Smith | TED => Discovering Your Authentic Self with Bevy Smith at TED
+ 11%|█▏        | 213/1881 [03:58<21:36,  1.29it/s]GENIUS HACKS FOR ANY OCCASION || How to Write Faster! Smart Parenting TikTok Tricks by 123 GO! => How to Improve Your Writing Speed and Parenting Skills with TikTok Tips
+ 11%|█▏        | 214/1881 [03:59<22:08,  1.25it/s]How to Grow Your Thumb => Thumb Growth Techniques
+ 11%|█▏        | 215/1881 [03:59<19:31,  1.42it/s]How to Simplify Your Life | Minimalist Philosophy => Tips for Reducing Clutter and Stress | Minimalism Explained
+ 11%|█▏        | 216/1881 [04:00<20:33,  1.35it/s]Debunking Fake Cooking Videos &amp; Vaping Lies | How To Cook That Ann Reardon => Analyzing Misleading Culinary Tutorials &amp; Falsehoods About Vaping | Culinary Techniques by Ann Reardon
+ 12%|█▏        | 217/1881 [04:02<25:44,  1.08it/s]HOW TO GET THESE HIDDEN ROBLOX FACES 🤩 => Roblox Face Tutorial
+ 12%|█▏        | 218/1881 [04:02<22:31,  1.23it/s]The Incredible New Way to Poach Eggs that NEVER Fails | Epicurious 101 => How to Poach Eggs Perfectly | Cooking Tutorial
+ 12%|█▏        | 219/1881 [04:03<22:53,  1.21it/s]How to Organise your Life - Building a Second Brain => Tips for Better Time Management
+ 12%|█▏        | 220/1881 [04:03<20:17,  1.36it/s]How To BECOME Rainbow Friends In Roblox => Roblox Rainbow Friends Tutorial
+ 12%|█▏        | 221/1881 [04:04<18:15,  1.52it/s]How To Learn Anything, Anywhere - Elon Musk => Learning Tips from Elon Musk
+ 12%|█▏        | 222/1881 [04:05<17:12,  1.61it/s]4 Things We&#39;ve Forgotten How to Make => Relearning Old Skills: 4 Forgotten Recipes
+ 12%|█▏        | 223/1881 [04:05<18:49,  1.47it/s]How to Make Perfect Stir Fry Every Time | 4 Components of Stir Fry | You Can Cook That => Stir Fry Tutorial
+ 12%|█▏        | 224/1881 [04:06<17:38,  1.57it/s]How To Work For MrBeast => Tips for Employment with MrBeast
+ 12%|█▏        | 225/1881 [04:07<19:27,  1.42it/s]HOW TO GET THE &quot;DECIMATOR SHIELD&quot; in &quot;The Archon&quot; - Vanguard Zombies => Acquiring the Decimator Shield in The Archon - Vanguard Zombies
+ 12%|█▏        | 226/1881 [04:08<20:24,  1.35it/s]How to Solve a Rubik&#39;s Cube | WIRED => Solving a Rubik's Cube Tutorial.
+ 12%|█▏        | 227/1881 [04:08<20:42,  1.33it/s][UPDATE] How to get ALL 5 NEW BACKROOMS MORPHS in Backrooms Morphs | Roblox => Roblox Backrooms Morphs Update
+ 12%|█▏        | 228/1881 [04:09<21:59,  1.25it/s]Tiësto - The Business (Official Music Video) => Tiësto - The Business (Official Music Video)
+ 12%|█▏        | 229/1881 [04:10<21:57,  1.25it/s]Tiesto - The Business (Official Lyric Video) => Tiesto - The Business (Official Lyric Video)
+ 12%|█▏        | 230/1881 [04:11<21:53,  1.26it/s]Tiësto - The Business (Lyrics) => Tiësto - The Business (Lyrics)
+ 12%|█▏        | 231/1881 [04:12<22:04,  1.25it/s]Tiësto - The Business (Official Audio) => Tiësto - The Business (Official Audio)
+ 12%|█▏        | 232/1881 [04:12<22:07,  1.24it/s]Tiësto - The Business (Lyrics) => Tiësto - The Business (Lyrics)
+ 12%|█▏        | 233/1881 [04:13<22:10,  1.24it/s]Tiësto - The Business (Lyrics) => Tiësto - The Business (Lyrics)
+ 12%|█▏        | 234/1881 [04:14<22:09,  1.24it/s]Tiesto - The Business (1 Hour Super Unstoppable Extended Version) => Extended version of Tiesto's "The Business" for one hour.
+ 12%|█▏        | 235/1881 [04:15<21:53,  1.25it/s]Why Royal Quinoa is So Expensive | So Expensive Food | Business Insider => Factors Affecting the Price of Royal Quinoa | Business Insider
+ 13%|█▎        | 236/1881 [04:16<21:39,  1.27it/s]Yung Berg - The Business ft. Casha => Yung Berg and Casha Perform 'The Business'
+ 13%|█▎        | 237/1881 [04:16<22:06,  1.24it/s]How to Create Weekly Planner For Business - Canva For Beginners => Creating a Business Planner with Canva
+ 13%|█▎        | 238/1881 [04:17<21:57,  1.25it/s]business 101 everything you need to know about business and startup basics => Introduction to Business Fundamentals
+ 13%|█▎        | 239/1881 [04:18<19:38,  1.39it/s]DON&#39;T USE DOMAIN.COM Before Watch THIS VIDEO! Best Domain Registrar  for Business => Domain Registrar Review
+ 13%|█▎        | 240/1881 [04:18<17:51,  1.53it/s]9 Business Ideas that Will Be BIG in 2022 => Predictions for Upcoming Business Trends
+ 13%|█▎        | 241/1881 [04:19<19:10,  1.43it/s]19 Year-Old Starts a Trucking Business => New Trucking Company Launched by Young Adult
+ 13%|█▎        | 242/1881 [04:20<20:44,  1.32it/s]Mark Cuban - The #1 Reason Why Most People Fail In Business => The Importance of Proper Business Planning - Mark Cuban's Insights
+ 13%|█▎        | 243/1881 [04:21<21:38,  1.26it/s]Twitter whistleblower slams company&#39;s alleged security problems => Report on Twitter's Security Issues by Whistleblower
+ 13%|█▎        | 244/1881 [04:22<22:05,  1.24it/s]How To Build A Business That Works | Brian Tracy #GENIUS => Business Building Tips with Brian Tracy
+ 13%|█▎        | 245/1881 [04:22<21:32,  1.27it/s]Businesses that Never Fail? 7 Businesses with Amazingly Low Failure Rates [Backed by Data] => Data-backed businesses with low failure rates
+ 13%|█▎        | 246/1881 [04:23<21:46,  1.25it/s]6 Businesses That Will Never Go Out of Market => List of 6 Stable Businesses
+ 13%|█▎        | 247/1881 [04:24<21:30,  1.27it/s]Best Online Business To Start As A BEGINNER (2022) => Starting an Online Business for Beginners in 2022
+ 13%|█▎        | 248/1881 [04:25<21:38,  1.26it/s]Andrew Tate Announces New &quot;Business&quot; After Ban => Andrew Tate shares news about his latest venture
+ 13%|█▎        | 249/1881 [04:26<22:11,  1.23it/s]Why the Metaverse Is Fashion&#39;s Next Goldmine | The Business of Fashion Show => The Business of Fashion Show Talks About the Metaverse and Fashion
+ 13%|█▎        | 250/1881 [04:27<23:02,  1.18it/s]6 Hilarious Business Ideas That Could Make You $1,000,000 in 2022 (#351) => Business Ideas for Profit in 2022 (#351)
+ 13%|█▎        | 251/1881 [04:27<22:23,  1.21it/s]Ep : 25 | Worlds Biggest Edtech Channel | Khan Sir | Bada Bharat | Dr Vivek Bindra => Episode 25 of a large educational technology channel featuring Khan Sir, Bada Bharat, and Dr. Vivek Bindra.
+ 13%|█▎        | 252/1881 [04:29<27:06,  1.00it/s]7 Profitable Business Ideas for 2022 => 7 Business Ideas for Next Year
+ 13%|█▎        | 253/1881 [04:30<25:47,  1.05it/s]Tiësto &amp; Ty Dolla $ign - The Business, Pt. II (Official Lyric Video) => The Business, Pt. II (Official Lyric Video)
+ 14%|█▎        | 254/1881 [04:30<24:47,  1.09it/s]भविष्य में यही 10 बिजनेस चलेगा🚀 10 Best future Business ideas 2022 💥 top 10 business ideas in Future => 10 Potential Business Ideas for the Future
+ 14%|█▎        | 255/1881 [04:31<23:45,  1.14it/s]How to Start a Business from NOTHING => Business Startup Tips
+ 14%|█▎        | 256/1881 [04:32<21:01,  1.29it/s]How To Run A Profitable Business &amp; Make Money => Business Profitability Tips
+ 14%|█▎        | 257/1881 [04:32<18:36,  1.46it/s]Elon Musk on Millennials and How To Start A Business => Entrepreneur Elon Musk Talks About Starting a Business and Millennials
+ 14%|█▎        | 258/1881 [04:33<19:29,  1.39it/s]Behzad Leito &amp; Sijal Ft Sepehr Khalse, Saman Wilson, Sohrab MJ, &amp; Alireza JJ) - &quot;Business&quot; AUDIO => Audio of Behzad Leito & Sijal's 'Business' featuring Sepehr Khalse, Saman Wilson, Sohrab MJ, & Alireza JJ
+ 14%|█▍        | 259/1881 [04:35<28:18,  1.05s/it]Charlie Sykes: GOP Candidates Transform Politics Into An ‘Unserious Business’ => Charlie Sykes Talks About Politics and Candidates
+ 14%|█▍        | 260/1881 [04:36<25:51,  1.04it/s]How He Started a Coffee Business (With $1,800) => Starting a Coffee Business with Limited Funds
+ 14%|█▍        | 261/1881 [04:36<24:37,  1.10it/s]gagnez 200.000 Fcfa par jour avec ce business en afrique => Comment gagner de l'argent en Afrique avec ce business
+ 14%|█▍        | 262/1881 [04:37<24:12,  1.11it/s]44 Businesses You Can Start During The 2022 Recession => List of 44 Business Ideas for 2022 Recession
+ 14%|█▍        | 263/1881 [04:38<24:04,  1.12it/s]Paul Pelosi DUI dashcam footage released => Traffic violation caught on camera
+ 14%|█▍        | 264/1881 [04:39<21:05,  1.28it/s]20 हजार रोज कमाकर देगी ये मशीन 🔥| New Business Ideas 2022 | Small Business Ideas, New Business Ideas => New Business Ideas 2022
+ 14%|█▍        | 265/1881 [04:39<20:59,  1.28it/s]How Covid Is Transforming the $380 Billion Luxury Fashion Industry | The Business of Fashion Show => Covid's Impact on Luxury Fashion Industry
+ 14%|█▍        | 266/1881 [04:40<21:03,  1.28it/s]Why Copper River King Salmon Is So Expensive | So Expensive Food | Business Insider => Copper River King Salmon Pricing Analysis
+ 14%|█▍        | 267/1881 [04:41<20:53,  1.29it/s]ตลาดถุงมือยางทรุด! ฉุดราคาร่วงลงทุนหด | BUSINESS WATCH | 23-08-65 => Market for Rubber Gloves Plummets: Business Watch
+ 14%|█▍        | 268/1881 [04:42<21:08,  1.27it/s]Liger Day 1 Advance Booking &amp; Pre Release Business | Vijay Deverakonda => Vijay Deverakonda's Liger Day 1 Booking and Pre-Release Business Update
+ 14%|█▍        | 269/1881 [04:43<24:10,  1.11it/s]helping a homeless woman, starting an online business as a 17 year old (coaching livestream) => Teenager shares tips on starting an online business while helping a homeless person (livestream)
+ 14%|█▍        | 270/1881 [04:44<25:30,  1.05it/s]How Liquidating Unwanted Goods Became A $644 Billion Business => The Economics of Selling Unwanted Items
+ 14%|█▍        | 271/1881 [04:45<24:32,  1.09it/s]Racist AI Rapper Gets Bounced From The Music Business => AI Rapper Faces Consequences
+ 14%|█▍        | 272/1881 [04:46<23:33,  1.14it/s]Lakeyah Ft. Latto - Mind Yo Business (Official Video) => Two Rappers Perform Song in Music Video
+ 15%|█▍        | 273/1881 [04:46<22:43,  1.18it/s]I Quit My $21K Day Job To Start My Own Business - Now It Brings In Over $500,000 => Career Change: From Employee to Entrepreneur
+ 15%|█▍        | 274/1881 [04:47<22:24,  1.20it/s]Tshepiso Ramotsehoa | Life Story | Business Coaching | Government |  Education | Youth | Women => Tshepiso Ramotsehoa's Life Story and Coaching Services
+ 15%|█▍        | 275/1881 [04:48<21:48,  1.23it/s]Small Business | TikTok Compilation => Compilation of Small Business Videos on TikTok
+ 15%|█▍        | 276/1881 [04:49<21:48,  1.23it/s]How To Use Canva For BEGINNERS! [FULL Canva Tutorial 2021] => Canva Tutorial for Beginners
+ 15%|█▍        | 277/1881 [04:49<19:11,  1.39it/s]FULL FACE OF FLAWLESS In-Depth Makeup Tutorial | NikkieTutorials => Makeup Tutorial by NikkieTutorials
+ 15%|█▍        | 278/1881 [04:50<19:30,  1.37it/s]Microsoft Excel Tutorial for Beginners - Full Course => Basic Guide to Microsoft Excel
+ 15%|█▍        | 279/1881 [04:51<17:52,  1.49it/s]APIs for Beginners - How to use an API (Full Course / Tutorial) => Introduction to APIs and their Usage
+ 15%|█▍        | 280/1881 [04:51<18:56,  1.41it/s]MySQL Tutorial for Beginners [Full Course] => Introduction to MySQL Basics
+ 15%|█▍        | 281/1881 [04:52<16:56,  1.57it/s]‘Clean Girl’ Makeup Tutorial &amp; Hydrated Skincare Routine => Daily Beauty Routine
+ 15%|█▍        | 282/1881 [04:52<15:47,  1.69it/s]Figma UI Design Tutorial: Get Started in Just 24 Minutes! (2022) => Figma Tutorial: Basic UI Design in 24 Minutes (2022)
+ 15%|█▌        | 283/1881 [04:53<17:25,  1.53it/s]HOW TO: EASY EVERYDAY FALL MAKEUP TUTORIAL! - Tips, Tricks &amp; Techniques for Beginners! => Fall Makeup Tutorial for Beginners
+ 15%|█▌        | 284/1881 [04:54<16:25,  1.62it/s]Worlds Cleanest Fade - Haircut Tutorial => Haircut Tutorial - Achieving a Clean Fade
+ 15%|█▌        | 285/1881 [04:55<17:51,  1.49it/s]Java Tutorial for Beginners => Introduction to Basic Java Programming Concepts
+ 15%|█▌        | 286/1881 [04:55<19:05,  1.39it/s]Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours] => Introduction to Kubernetes
+ 15%|█▌        | 287/1881 [04:56<17:31,  1.52it/s]C++ Tutorial for Beginners - Full Course => C++ Basics for Novices - Comprehensive Lesson
+ 15%|█▌        | 288/1881 [04:57<18:28,  1.44it/s]you need to learn SQL RIGHT NOW!! (SQL Tutorial for Beginners) => Introduction to SQL for Beginners
+ 15%|█▌        | 289/1881 [04:57<16:36,  1.60it/s]How to Design a Tutorial => Step-by-Step Guide to Creating a Tutorial
+ 15%|█▌        | 290/1881 [04:58<17:50,  1.49it/s]Lightroom Tutorial BASICS | Photo Editing Masterclass => Introduction to Lightroom Editing
+ 15%|█▌        | 291/1881 [04:58<16:39,  1.59it/s]Python Tutorial - Python Full Course for Beginners => Introduction to Python Programming
+ 16%|█▌        | 292/1881 [04:59<15:33,  1.70it/s]Learn Python - Full Course for Beginners [Tutorial] => Python Tutorial for Beginners
+ 16%|█▌        | 293/1881 [04:59<15:14,  1.74it/s]Gordon Ramsay&#39;s perfect burger tutorial | GMA => How to make a burger with Gordon Ramsay | GMA
+ 16%|█▌        | 294/1881 [05:00<16:53,  1.57it/s]HTML Tutorial for Beginners: HTML Crash Course => Introduction to HTML Basics
+ 16%|█▌        | 295/1881 [05:01<15:45,  1.68it/s]EXTRA GLAM Makeup Tutorial => Makeup Tutorial.
+ 16%|█▌        | 296/1881 [05:01<15:28,  1.71it/s]Reacting to people following my wolf cut tutorial => Watching someone respond to others copying their wolf haircut guide.
+ 16%|█▌        | 297/1881 [05:02<17:30,  1.51it/s]179 Minecraft Build Hacks! => 179 Ways to Build in Minecraft
+ 16%|█▌        | 298/1881 [05:03<18:28,  1.43it/s]Gordon Ramsay&#39;s Top Basic Cooking Skills | Ultimate Cookery Course FULL EPISODE => Cooking Skills by Gordon Ramsay
+ 16%|█▌        | 299/1881 [05:03<16:53,  1.56it/s]31 Tricks to Become a Minecraft Building Pro => Tips for Improving Your Minecraft Building Skills
+ 16%|█▌        | 300/1881 [05:04<18:36,  1.42it/s]30 Easy DIY Projects For Beginners That Increase Your Home Value => Home Improvement Ideas for Novices
+ 16%|█▌        | 301/1881 [05:05<19:20,  1.36it/s]Clean Girl On The Go Makeup Tutorial | Christen Dominique => Makeup Tutorial by Christen Dominique
+ 16%|█▌        | 302/1881 [05:06<19:30,  1.35it/s]How to play &#39;Interstellar&#39; 🎹✨ (Cornfield Chase) Complete Piano Tutorial => Interstellar Piano Tutorial
+ 16%|█▌        | 303/1881 [05:06<17:37,  1.49it/s]Tutorials That Went Wrong - Part 2 => Failed Tutorials - Part 2
+ 16%|█▌        | 304/1881 [05:07<16:34,  1.59it/s]TypeScript Tutorial for Beginners [2022] => Introduction to TypeScript Programming Language
+ 16%|█▌        | 305/1881 [05:07<15:19,  1.71it/s]Facing My Worst Fears... Makeup Challenge! | NikkieTutorials => Makeup Challenge by NikkieTutorials
+ 16%|█▋        | 306/1881 [05:08<16:52,  1.56it/s]Lisa Rinna’s Guide to Ageless Skin and Her Signature Plush Lips | Beauty Secrets | Vogue => Lisa Rinna Talks About Her Skincare and Lip Routine | Beauty Tips | Vogue
+ 16%|█▋        | 307/1881 [05:09<20:18,  1.29it/s]Sony a7R III Training Tutorial => Camera Tutorial for Sony a7R III
+ 16%|█▋        | 308/1881 [05:10<21:31,  1.22it/s]Drawing faces tutorial => How to draw faces step by step
+ 16%|█▋        | 309/1881 [05:11<21:43,  1.21it/s]How to Get Waves (5 Step Tutorial) | GQ => Steps to Achieve Waves | GQ
+ 16%|█▋        | 310/1881 [05:12<21:22,  1.23it/s]Tutorial -  Friday Night Funkin&#39; OST => Guide - Understanding Friday Night Funkin' Soundtrack
+ 17%|█▋        | 311/1881 [05:13<21:06,  1.24it/s]FANTASTIC BEAUTY TUTORIAL | Amazing Hair Dyeing Techniques, Nail Art Ideas And Makeup Trends => Beauty Tutorial: Hair Dyeing, Nail Art, and Makeup Trends
+ 17%|█▋        | 312/1881 [05:14<23:22,  1.12it/s]EVERYDAY SUMMER MAKEUP TUTORIAL ... => Basic Tutorial on Applying Makeup for Summer Days
+ 17%|█▋        | 313/1881 [05:14<22:15,  1.17it/s]Hailey Bieber&#39;s Date Night Skin Care &amp; Makeup Routine | Beauty Secrets | Vogue => Hailey Bieber's Nightly Beauty Routine
+ 17%|█▋        | 314/1881 [05:15<22:01,  1.19it/s]How to Get Sturdy in 2022 | Dance Tutorial => 2022 Sturdiness Guide: Dance Lesson
+ 17%|█▋        | 315/1881 [05:16<21:41,  1.20it/s]Learn to JUGGLE 3 BALLS - Beginner Tutorial => Juggling Tutorial for Beginners
+ 17%|█▋        | 316/1881 [05:17<19:29,  1.34it/s]25 Features Mojang Keeps a Secret => Hidden Characteristics of Mojang's Game
+ 17%|█▋        | 317/1881 [05:18<20:38,  1.26it/s]Euphoria’s Alexa Demie Shares Her ’90s Glam Tutorial | Beauty Secrets | Vogue => Alexa Demie's Makeup Tutorial
+ 17%|█▋        | 318/1881 [05:18<20:49,  1.25it/s]BACK TO SCHOOL HAIR TUTORIAL! | Elementary, Middle, and High School! => Basic Hair Tutorial for Students
+ 17%|█▋        | 319/1881 [05:19<18:03,  1.44it/s]How to Moonwalk (Dance Moves Tutorial) | Mihran Kirakosian => Tutorial on the Moonwalk Dance Move.
+ 17%|█▋        | 320/1881 [05:20<18:58,  1.37it/s]20 Minecraft Block Facts You Maybe Didn&#39;t Know => 20 Facts About Minecraft Blocks
+ 17%|█▋        | 321/1881 [05:20<17:04,  1.52it/s]SPEAKING DUTCH ONLY Makeup Tutorial! | NikkieTutorials => Dutch Language Makeup Tutorial by NikkieTutorials
+ 17%|█▋        | 322/1881 [05:21<17:53,  1.45it/s]Tutorials That Went WRONG => Failed Tutorials.
+ 17%|█▋        | 323/1881 [05:21<16:17,  1.59it/s]Tutorial 😍 do u want to see the result? XO TEAM TIKTOK Elsarca #xoteam #elsarca #tiktok => XO TEAM TIKTOK Elsarca Tutorial
+ 17%|█▋        | 324/1881 [05:22<17:47,  1.46it/s]the minecraft tutorial world had a secret... => Exploring the Hidden Features of a Minecraft Tutorial World
+ 17%|█▋        | 325/1881 [05:23<18:24,  1.41it/s]Musica Tutorial completa FNF  (Friday Night Funkin&#39;) => Complete Tutorial for Music in FNF Game.
+ 17%|█▋        | 326/1881 [05:24<18:45,  1.38it/s]The best and worst retail trading platforms: Finance professor => Comparison of Retail Trading Platforms by a Finance Professor
+ 17%|█▋        | 327/1881 [05:24<19:15,  1.35it/s]Bajaj Finance Decade&#39;s Top Wealth Creator | Wonderful Wednesday | Parimal Ade &amp; Aastha Khurana => Bajaj Finance's Financial Performance Analysis
+ 17%|█▋        | 328/1881 [05:25<19:25,  1.33it/s]Tech firms can&#39;t hide behind advertising rules with financial products, says CFPB chief => CFPB Chief Discusses Advertising Rules for Tech Firms' Financial Products
+ 17%|█▋        | 329/1881 [05:26<22:06,  1.17it/s]Housing: ‘This might be almost the worst time you could buy,’ Columbia Business School Professor C => Housing Market Analysis by Columbia Business School Professor C
+ 18%|█▊        | 330/1881 [05:27<21:44,  1.19it/s]Intel, Brookfield ink $30 billion financing deal for chip factory expansion => Intel and Brookfield agree on financing for chip factory expansion.
+ 18%|█▊        | 331/1881 [05:28<21:41,  1.19it/s]Student loan forgiveness a &#39;lose-lose&#39; for Biden: Yahoo Finance’s Rick Newman => Discussion on Student Loan Forgiveness
+ 18%|█▊        | 332/1881 [05:29<21:31,  1.20it/s]Where the ultra-wealthy are allocating their assets: Survey => Asset Allocation Survey Results
+ 18%|█▊        | 333/1881 [05:29<19:05,  1.35it/s]Friday Finance | Season 03 | Trailer | Web Series | Hindustan Times => Trailer for a finance web series.
+ 18%|█▊        | 334/1881 [05:30<19:18,  1.34it/s]The European Energy CRISIS (Winter Is Coming) => Analysis of Energy Shortage in Europe
+ 18%|█▊        | 335/1881 [05:31<19:51,  1.30it/s]White House Press Briefing => Daily White House Press Briefing
+ 18%|█▊        | 336/1881 [05:32<20:08,  1.28it/s]Food prices, gas and housing: Financial content creator weighs in => Analysis of Economic Factors by Financial Content Creator
+ 18%|█▊        | 337/1881 [05:33<20:09,  1.28it/s]Recession fears? Canadians cutting spending, worried about debt levels | Financial planner reacts => Canadians' Spending Habits and Debt Levels Discussed by Financial Planner
+ 18%|█▊        | 338/1881 [05:34<22:28,  1.14it/s]Ethereum merge: ‘This is a huge milestone for the industry,’ Framework Ventures co-founder says => Framework Ventures co-founder discusses Ethereum merge
+ 18%|█▊        | 339/1881 [05:34<21:47,  1.18it/s]1. Introduction, Financial Terms and Concepts => 1. Basic Overview of Financial Terminology and Ideas
+ 18%|█▊        | 340/1881 [05:35<21:31,  1.19it/s]Stocks moving in after hours: Nordstrom, Urban Outfitters, Intuit, Toll Brothers, AMC and APE => Stocks After Hours: Nordstrom, Urban Outfitters, Intuit, Toll Brothers, AMC and APE
+ 18%|█▊        | 341/1881 [05:37<25:20,  1.01it/s]William Ackman: Everything You Need to Know About Finance and Investing in Under an Hour | Big Think => Finance and Investing in Under an Hour
+ 18%|█▊        | 342/1881 [05:37<24:09,  1.06it/s]Money and Finance: Crash Course Economics #11 => Introduction to Basic Economic Concepts: Crash Course Economics #1
+ 18%|█▊        | 343/1881 [05:38<22:45,  1.13it/s]Stocks moving in after hours: Bed Bath &amp; Beyond, Apple, Tesla, Walmart, Target => Evening stock updates for various companies
+ 18%|█▊        | 344/1881 [05:39<21:54,  1.17it/s]Is the real estate market sliding into a &#39;house recession&#39;? => Real Estate Market Analysis
+ 18%|█▊        | 345/1881 [05:39<19:17,  1.33it/s]U.S. Defense briefing on aid to Ukraine at 2:30PM EST => 2:30PM EST briefing on U.S. aid to Ukraine's defense
+ 18%|█▊        | 346/1881 [05:41<22:04,  1.16it/s]Mohamed El-Erian predicts Fed moves and the housing market: August 21, 2013 => August 21, 2013 Economic Forecast
+ 18%|█▊        | 347/1881 [05:41<21:45,  1.17it/s]&#39;One Man&#39;s Freebie Is Another Man&#39;s Social Spending&#39;: Tamil Nadu Finance Minister | No Spin => Tamil Nadu Finance Minister Talks About Freebies and Social Spending
+ 19%|█▊        | 348/1881 [05:42<21:38,  1.18it/s]Seven Steps to Financial Wellness | Arpit Arora | TEDxChowringhee => Steps to Financial Wellness
+ 19%|█▊        | 349/1881 [05:43<19:06,  1.34it/s]Chappelle&#39;s Show - Wu-Tang Financial (ft. RZA and GZA) - Uncensored => Comedy sketch featuring Wu-Tang Financial and two members of the Wu-Tang Clan.
+ 19%|█▊        | 350/1881 [05:44<21:12,  1.20it/s]Fed: &#39;Things break&#39; when you start quantitative tightening, strategist says => Quantitative Tightening and its Effects on the Economy
+ 19%|█▊        | 351/1881 [05:45<20:58,  1.22it/s]Why eggs are becoming more expensive, according to Vital Farms CEO => Egg Price Increase Explanation by Vital Farms CEO
+ 19%|█▊        | 352/1881 [05:45<21:05,  1.21it/s]Tamil Nadu Finance Min Palanivel Thiagarajan&#39;s Viral &amp; Fiery Retort To Modi Govt On Freebies => Tamil Nadu Finance Minister Talks About Government Policies
+ 19%|█▉        | 353/1881 [05:46<20:57,  1.21it/s]Gravitas Plus | Financial Literacy: The need of the hour => Financial Literacy Importance
+ 19%|█▉        | 354/1881 [05:47<18:33,  1.37it/s]India Today is a Miracle…But That Miracle is Under Threat—Tamil Nadu Finance Minister P Thiaga Rajan => Tamil Nadu Finance Minister Talks About India's Economic Situation
+ 19%|█▉        | 355/1881 [05:47<18:51,  1.35it/s]10 personal finance lessons that changed my life => Lessons in personal finance
+ 19%|█▉        | 356/1881 [05:48<16:48,  1.51it/s]Finance experts on the prospect of Sir Jim Ratcliffe buying a stake in Manchester United => Discussion on Sir Jim Ratcliffe's potential investment in Manchester United
+ 19%|█▉        | 357/1881 [05:49<18:40,  1.36it/s]&#39;A Storm Is Brewing: Steve Forbes Warns That A &#39;Big Financial Crisis&#39; Is Coming | What&#39;s Ahead => Steve Forbes Talks About Financial Crisis in Upcoming Video
+ 19%|█▉        | 358/1881 [05:50<18:56,  1.34it/s]Become a Master of Finance with Harvard Professor Mihir Desai (with Lewis Howes) => Finance Mastery Discussion with Mihir Desai and Lewis Howes
+ 19%|█▉        | 359/1881 [05:50<19:30,  1.30it/s]Finance influencer talks social media, retail hacks, and what to know when you travel => Discussion on Finance and Social Media, Retail Tips, and Travel Advice
+ 19%|█▉        | 360/1881 [05:51<19:31,  1.30it/s]Ed Hyman: The Economy is Doing OK => Ed Hyman Discusses the Current State of the Economy
+ 19%|█▉        | 361/1881 [05:52<19:13,  1.32it/s]Introduction to Corporate Finance - FREE Course => Corporate Finance Basics
+ 19%|█▉        | 362/1881 [05:52<17:17,  1.46it/s]No Consideration of Charges for UPI Services | Cleared Finance Ministrer Nirmala | => Discussion on UPI Service Charges
+ 19%|█▉        | 363/1881 [05:53<18:31,  1.37it/s]Personal finance: How to save, spend, and think rationally about money | Big Think => Money Management Tips from Big Think
+ 19%|█▉        | 364/1881 [05:54<19:12,  1.32it/s]BJP Slams Tamil Nadu Finance Minister Palanivel Thiagarajan For Questioning Centre On Freebies => Political Party Criticizes State Minister for Questioning Government's Policies
+ 19%|█▉        | 365/1881 [05:55<20:13,  1.25it/s]bitcoin holders...what are these guys up to? => Observing the Activities of Bitcoin Holders
+ 19%|█▉        | 366/1881 [05:56<20:22,  1.24it/s]I got sued => I received legal action
+ 20%|█▉        | 367/1881 [05:56<18:05,  1.40it/s]The REAL REASON Bitcoin Will Hit $500,000 Per Coin By 2030 (NOT CLICKBAIT) => Bitcoin's Future Value Prediction
+ 20%|█▉        | 368/1881 [05:57<16:31,  1.53it/s]Attention: Bitcoin is About to Destroy New Crypto Investors (Wyckoff Analysis) => Analysis of Wyckoff and Bitcoin's Impact on New Crypto Investors
+ 20%|█▉        | 369/1881 [05:58<17:44,  1.42it/s]ATOM COSMOS PREND SON ENVOL 🔥 DOSSIER MAJEUR DES BLOCKCHAINS 💎 #atom #cosmos #crypto #ethereum => Discussion on Atom, Cosmos, and Blockchain Technology
+ 20%|█▉        | 370/1881 [05:59<18:44,  1.34it/s]Youtuber Gets Sued By Crypto Millionaire => Legal Dispute Between Two Individuals
+ 20%|█▉        | 371/1881 [05:59<20:10,  1.25it/s]China&#39;s Economic CRASH: Why It&#39;s Coming &amp; What It Means => Analysis of China's Economic Situation
+ 20%|█▉        | 372/1881 [06:00<20:29,  1.23it/s]woah...pay attention to bitcoin and these crypto => Analysis of Cryptocurrency Trends and Bitcoin's Impact on the Market
+ 20%|█▉        | 373/1881 [06:01<20:25,  1.23it/s]ALERT!!!!!!!! BITCOIN BREAKOUT NOW!!!!!?!! BUT… THIS IS VERY SCARY!!!! [watch fast]🚨 => Bitcoin Market Update
+ 20%|█▉        | 374/1881 [06:02<17:55,  1.40it/s]Top Crypto Experts On Ethereum Merge! (DXY vs Bitcoin) => Crypto Experts Discuss Ethereum Merge and Bitcoin Comparison
+ 20%|█▉        | 375/1881 [06:02<18:20,  1.37it/s]Rep. Boebert skips crypto reporting cutoff, and cutting emissions with blockchain: CNBC Crypto World => CNBC Crypto World: Rep. Boebert and Blockchain Emissions
+ 20%|█▉        | 376/1881 [06:04<21:51,  1.15it/s]The Next 72 Hours Could Make Or Break You! (Bitcoin &amp; Crypto Analysis) => Analysis of Bitcoin and Cryptocurrency in the Next 72 Hours
+ 20%|██        | 377/1881 [06:04<21:11,  1.18it/s]Coinbase CEO Brian Armstrong on managing the crypto winter => Discussion with Brian Armstrong about cryptocurrency management during a difficult time
+ 20%|██        | 378/1881 [06:05<20:43,  1.21it/s]BITCOIN BREAKOUT IN 48 HOURS!!!!! I&#39;M SHAKING!!!!! => Upcoming Bitcoin Market Movement
+ 20%|██        | 379/1881 [06:06<18:07,  1.38it/s]MAJOR Indicator Flashes | But What Does It Mean For Bitcoin? => Indicator Flashes for Bitcoin
+ 20%|██        | 380/1881 [06:06<16:38,  1.50it/s]THIS WILL SHOCK EVERYONE!!!!! => Data Analysis of Consumer Trends in the Midwest
+ 20%|██        | 381/1881 [06:07<17:22,  1.44it/s]is the BITCOIN crash almost over or is it just getting started? Crypto News Today => Analysis of Bitcoin Market Trends
+ 20%|██        | 382/1881 [06:07<15:54,  1.57it/s]GET READY FOR 25th-27th AUGUST !!! => Upcoming Dates to Mark on Your Calendar
+ 20%|██        | 383/1881 [06:08<17:09,  1.45it/s]One Asset Is About To Smash Bitcoin | Can You Still Invest? => Asset Comparison and Investment Opportunities
+ 20%|██        | 384/1881 [06:09<16:00,  1.56it/s]48 HOURS UNTIL THE CRYPTO MARKET &quot;KNOWS!&quot; (CRUCIAL TIME FOR CRYPTO!) => Upcoming Crypto Market Update
+ 20%|██        | 385/1881 [06:09<14:54,  1.67it/s]🚨 39 Days Until Europe’s Economic Death 🚨  [Russia Gas Crisis] => Countdown to Europe's Economic Decline Due to Gas Crisis
+ 21%|██        | 386/1881 [06:10<16:40,  1.49it/s]🔥5 CRYPTO COINS TO DCA SOON &amp; MAKE F*** YOU MONEY?! (URGENT!) => 5 Cryptocurrency Coins to Consider Investing in
+ 21%|██        | 387/1881 [06:11<18:21,  1.36it/s]Critical Ethereum Bug (Bitcoin Struggles for Momentum) => Technical Analysis of Cryptocurrency Market Trends
+ 21%|██        | 388/1881 [06:12<18:32,  1.34it/s]CRYPTO ABOUT TO REACT TO ECONOMIC COLLAPSE => Crypto and Economic Collapse
+ 21%|██        | 389/1881 [06:12<16:39,  1.49it/s]all eyes on these two...what will they do to bitcoin and markets? => Observing the actions of two individuals and their potential impact on bitcoin and markets.
+ 21%|██        | 390/1881 [06:13<19:33,  1.27it/s]Takeoff, Rich The Kid - Crypto (Official Video) => Takeoff, Rich The Kid - Crypto (Official Video)
+ 21%|██        | 391/1881 [06:14<19:30,  1.27it/s]FRIDAY IS A &quot;MASSIVE&quot; DAY FOR CRYPTO! FIND OUT WHY! => Crypto News Update for Friday
+ 21%|██        | 392/1881 [06:15<17:12,  1.44it/s] 21%|██        | 392/1881 [06:15<23:44,  1.04it/s]
+Traceback (most recent call last):
+  File "/home/alex/git/YoutubeClickRepulser/data_to_csv.py", line 33, in <module>
+    title_data['completion'] = title_data.progress_apply(get_completion, axis=1)
+  File "/home/alex/miniconda3/envs/shell/lib/python3.10/site-packages/tqdm/std.py", line 814, in inner
+    return getattr(df, df_function)(wrapper, **kwargs)
+  File "/home/alex/miniconda3/envs/shell/lib/python3.10/site-packages/pandas/core/frame.py", line 9565, in apply
+    return op.apply().__finalize__(self, method="apply")
+  File "/home/alex/miniconda3/envs/shell/lib/python3.10/site-packages/pandas/core/apply.py", line 746, in apply
+    return self.apply_standard()
+  File "/home/alex/miniconda3/envs/shell/lib/python3.10/site-packages/pandas/core/apply.py", line 873, in apply_standard
+    results, res_index = self.apply_series_generator()
+  File "/home/alex/miniconda3/envs/shell/lib/python3.10/site-packages/pandas/core/apply.py", line 889, in apply_series_generator
+    results[i] = self.f(v)
+  File "/home/alex/miniconda3/envs/shell/lib/python3.10/site-packages/tqdm/std.py", line 809, in wrapper
+    return func(*args, **kwargs)
+  File "/home/alex/git/YoutubeClickRepulser/data_to_csv.py", line 16, in get_completion
+    x = openai.ChatCompletion.create(
+  File "/home/alex/miniconda3/envs/shell/lib/python3.10/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "/home/alex/miniconda3/envs/shell/lib/python3.10/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "/home/alex/miniconda3/envs/shell/lib/python3.10/site-packages/openai/api_requestor.py", line 226, in request
+    resp, got_stream = self._interpret_response(result, stream)
+  File "/home/alex/miniconda3/envs/shell/lib/python3.10/site-packages/openai/api_requestor.py", line 619, in _interpret_response
+    self._interpret_response_line(
+  File "/home/alex/miniconda3/envs/shell/lib/python3.10/site-packages/openai/api_requestor.py", line 682, in _interpret_response_line
+    raise self.handle_error_response(
+openai.error.RateLimitError: Rate limit reached for default-gpt-3.5-turbo in organization org-rc1cTNu6leVvmbZOwLGDXqIs on requests per min. Limit: 60 / min. Please try again in 1s. Contact support@openai.com if you continue to have issues.

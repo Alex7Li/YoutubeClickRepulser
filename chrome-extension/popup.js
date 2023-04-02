@@ -1,9 +1,11 @@
-const OPENAPI_KEY = getCookie("OpenAI Key")
+let OPENAPI_KEY = getCookie("OpenAI Key")
+console.log("openai key " + OPENAPI_KEY)
 // Login script executes after the page loads
 document.addEventListener("DOMContentLoaded", function () {
   const openAIKey = document.getElementById('openaikey');
   const setAIKey = document.getElementById('setopenaikey');
   openAIKey.value = OPENAPI_KEY;
+  console.log(`OpenAI KEY ${OPENAPI_KEY}`)
   setAIKey.onclick = function () {
     setCookie("OpenAI Key", openAIKey.value);
     OPENAPI_KEY = openAIKey.value;
@@ -31,77 +33,76 @@ chrome.tabs.query({ active: true, currentWindow: true }).then(function (tabs) {
 });
 
 async function onPageScript(api_key) {
-  function make_request(api_key, input_text) {
+  function make_request(api_key, input_text, type='original') {
     const xhr = new XMLHttpRequest();
-    xhr.open("POST", "https://api.openai.com/v1/chat/completions");
-    xhr.setRequestHeader("content-type", "application/json")
-    xhr.setRequestHeader("Authorization", "Bearer " + api_key)
-    xhr.onload = () => {
-      if (xhr.readyState == 4 && xhr.status == 200) {
-        // console.log(xhr.response);
-      } else {
-        // console.log(`Error: ${xhr.status}`);
-      }
-    };
-
-    return new Promise(resolve => {
-      xhr.onload = () => {
-        if (xhr.readyState == 4 && xhr.status == 200) {
-          // console.log(xhr.response);
-        } else {
-          // console.log(`Error: ${xhr.status}`);
-        }
-        resolve({
-          status: xhr.status,
-          response: xhr.responseText
-        }
-    )};
-      xhr.onerror = () => {
-        console.log("XHR error")
-        resolve({
-          status: xhr.status,
-          response: xhr.responseText
-        }
-      )};
-      xhr.send(JSON.stringify({
-        "model": "gpt-3.5-turbo",
-        "messages": [{"role": "user", "content": input_text}]
-      }));
-    })
-  };
-  // Make a request to the LLM}
-  
-  // make_request(api_key, "The worlds most original youtube title").then(
-  //   (result) => {
-  //     console.log("Request finished")
-  //     console.log(result)
-  // });
-  
-  Array.from(
-    document.querySelectorAll('[id="video-title"]'))
-    .forEach(async function (x) {
-        try{
-          // const replacement = replaceWithLLM(x.innerHTML)
-          const text = x.innerHTML.toString()
-          const prompt = `I keep on clicking youtube videos that I am not interested in. Take a video title from youtube and make it boring as possible. Do not be overly verbose. Do not say anything other than the title, and do not use quotes. Here is the title: ${text}`
-          const replacement = await make_request(api_key, prompt)
-          // debugger;
-          let replacement_text = JSON.parse(replacement.response).choices[0].message.content
-          if (replacement_text[0] == '"' && replacement_text[replacement_text.length-1]=='"') {
-            debugger;
-            replacement_text = replacement_text.substr(1, replacement_text.length-2)
+    if(type == 'original') {
+      xhr.open("POST", "https://api.openai.com/v1/chat/completions");
+      xhr.setRequestHeader("content-type", "application/json")
+      xhr.setRequestHeader("Authorization", "Bearer " + api_key)
+      return new Promise(resolve => {
+        xhr.onload = () => {
+          if (xhr.status == 200){
+            const out_json = JSON.parse(xhr.responseText)
+            let message = out_json.choices[0].message.content
+            if (message[0] == '"' && message[message.length - 1] == '"') {
+              message = message.substr(1, message.length - 2)
+            }
+            resolve(message)
+          } else {
+            console.error(`Error ${xhr.status}`)
+            resolve(input_text)
           }
-          console.log("#################################")
-          console.log(text)
-          console.log(replacement_text)
-          x.innerHTML = replacement_text; 
-        }
-      catch(error){
-        console.log(error)
-      }
+        };
+        const prompt = `I keep on clicking youtube videos that I am not interested in. Take a video title from youtube and make it boring as possible. Do not say anything other than the title. Be succinct. Here is the title: '${input_text}'`
+        xhr.send(JSON.stringify({
+          "model": "gpt-3.5-turbo",
+          "messages": [{ "role": "user", "content": prompt }]
+        }));
+      })
+    } else if (type == 'fine-tuned') {
+      xhr.open("POST", "https://api.openai.com/v1/completions");
+      xhr.setRequestHeader("content-type", "application/json")
+      xhr.setRequestHeader("Authorization", "Bearer " + api_key)
+      return new Promise(resolve => {
+        xhr.onload = () => {
+          if (xhr.status == 200){
+            const out_json = JSON.parse(xhr.responseText)
+            let message = out_json.choices[0].text
+            if (message[0] == '"' && message[message.length - 1] == '"') {
+              message = message.substr(1, message.length - 2)
+            }
+            resolve(message)
+          } else {
+            console.error(`Error ${xhr.status}`)
+            resolve(input_text)
+          }
+        };
+        xhr.send(JSON.stringify({
+          "model": "davinci:ft-personal-2023-04-02-03-29-46",
+          "prompt": input_text + "->",
+          "stop": "\n"
+        }));
+      })
+    } else {
+        throw Error("Invalid request type")
     }
-  );
-
-  console.log("I'm on the page")
+  };
+  console.log("ok")
+  const title_htmls = Array.from(document.querySelectorAll('[id="video-title"]'))
+  let examples = ""
+  for (const x of title_htmls) {
+    try {
+      const original_title = x.innerHTML.toString()
+      const new_title = await make_request(api_key, original_title, 'original')
+      x.innerHTML = new_title;
+      const example = `${original_title}\t${new_title}\n`;
+      console.log(example);
+      examples += example
+    } catch(e) {
+      console.error(e)
+    }
+  }
+  console.log("GENERATED EXAMPLES:");
+  console.log(examples);
   return "xx"
 }
