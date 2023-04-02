@@ -14,30 +14,36 @@ title_data['prompt'] = title_data['Title']
 counter = 0
 def get_completion(row):
     global counter
-    counter+=1
+    counter += 1
     if counter % 100 == 0:
         print(counter, flush=True)
     time.sleep(1.01) # avoid the rate limit of 60/min
     prompt = f'I keep on clicking youtube videos that I am not interested in. Take a video title from youtube and make it boring as possible. Do not say anything other than the title. Be succinct. Here is the title: "{row["prompt"]}"'
-    openai.api_key = os.getenv("OPENAI_API_KEY")
-    x = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
-        messages=[
-            {
-                'role': "user",
-                'content': prompt
-            }
-        ],
-        temperature=0,
-    )
-    result = x['choices'][0]['message']['content']
-    if result[0] == result[-1] == '"' or result[0] == result[-1] == "'" :
-        result = result[1:-1]
-    print(f"{row['prompt']}\t{result}", flush=True)
-    return result
+    try:
+        openai.api_key = os.getenv("OPENAI_API_KEY")
+        x = openai.ChatCompletion.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {
+                    'role': "user",
+                    'content': prompt
+                }
+            ],
+            temperature=0,
+        )
+        result = x['choices'][0]['message']['content']
+        if result[0] == result[-1] == '"' or result[0] == result[-1] == "'" :
+            result = result[1:-1]
+        print(f"{row['prompt']}\t{result}", flush=True)
+        return result
+    except Exception as e:
+        print(counter)
+        print(e)
+        print("Failed")
+        return "ERROR: THE MODEL FAILED TO EXECUTE"
 
 title_data.drop(title_data.columns.difference(['prompt']), 1, inplace=True)
-title_data['completion'] = title_data.progress_apply(get_completion, axis=1)
+title_data['completion'] = title_data.apply(get_completion, axis=1)
 title_data.to_csv('data_comma_sep_auto.csv', index=False)
 
 # BASH COMMANDS AFTER RUNNING:
