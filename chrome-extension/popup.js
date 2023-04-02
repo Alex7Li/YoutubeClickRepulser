@@ -62,7 +62,7 @@ async function onPageScript(api_key) {
             resolve(input_text)
           }
         };
-        
+
         const prompt = '';
         if (input_transcript.length == 0){
           prompt = `I keep on clicking youtube videos that I am not interested in. Take a video title from youtube and make it boring as possible. Do not say anything other than the title. Be succinct. Here is the title: '${input_text}'`
@@ -135,7 +135,7 @@ async function onPageScript(api_key) {
       if (while_counter < 4){
         const parent_href = parent.href.toString();
         let href_array = parent_href.split('watch?v=');
-        const video_id = href_array[1];
+        const video_id = href_array[1].split('&')[0];
         const original_title = x.innerHTML.toString()
 
         const transcript = await get_transcript(video_id)
