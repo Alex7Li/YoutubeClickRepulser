@@ -1,6 +1,9 @@
+const sleep = time => new Promise(res => setTimeout(res, time, "done sleeping"));
 async function onPageLoaded() {
   // chrome.storage.local.clear()
+  await sleep(2000);
   const videos = getTitles()
+  console.log(videos)
   for (const video of videos) {
     video['new_title'] = await getVideoTitle(video.id)
     if(video['new_title'] == undefined) {
@@ -12,8 +15,8 @@ async function onPageLoaded() {
         video['new_title'] = video['title']
       }
     }
+    updateWebPage([video])
   }
-  updateWebPage(videos)
 }
 
 function updateWebPage(videos) {
@@ -42,8 +45,6 @@ function getTitles() {
       }
       if (while_counter < 4) {
         const parent_href = parent.href.toString();
-        console.log('parent href')
-        console.log(parent_href)
         let href_array = parent_href.split('watch?v=');
         const suffix = href_array[1]
         if(suffix == undefined) {
@@ -64,11 +65,12 @@ function getTitles() {
 
 chrome.storage.sync.get(['openaikey'], function (storage) {
   window.OPENAPI_KEY = storage.openaikey
+
   if (document.readyState !== 'loading') {
     // Page has already loaded, start processing now
-    onPageLoaded()
+    onPageLoaded();
   } else {
     // Wait for page to load
     document.addEventListener("DOMContentLoaded", onPageLoaded);
   }
-})
+});
