@@ -24,11 +24,12 @@ def api_all():
     # prompt = f'task: change an exaggerated youtube title to a neutral title. exaggerated: "{title}"\nneutral: '
     # output_text = llm_inference.infer(prompt)
     # output = jsonify({"new_title": output_text.split('\nneutral: ')})
+    
     output = jsonify(new_title="This is a boring title")
     
     
     return output
     
 
-
-app.run(host="localhost", port=8000, debug=True)
+if __name__ == '__main__':
+    app.run(host="localhost", port=8000, debug=True)
