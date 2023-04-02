@@ -13,7 +13,7 @@ def home():
 <p>A prototype API for distant reading of science fiction novels.</p>'''
 
 
-@app.route('/api/inference', methods=['POST'])
+@app.route('/api/inference', methods=['GET','POST'])
 def api_all():
     
     if 'title' in request.args:
@@ -25,7 +25,7 @@ def api_all():
     # output_text = llm_inference.infer(prompt)
     # output = jsonify({"new_title": output_text.split('\nneutral: ')})
     
-    output = jsonify(new_title="This is a boring title")
+    output = jsonify(new_title="This is a boring title", old_title=title)
     
     
     return output
