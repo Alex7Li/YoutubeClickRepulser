@@ -101,15 +101,15 @@ async function onPageScript(api_key) {
           }
 
       if (while_counter < 4){
-        const parent_href = parent.href.toString()
+        const parent_href = parent.href.toString();
         let href_array = parent_href.split('watch?v=');
-        const href = href_array[1];
+        const video_id = href_array[1];
         const original_title = x.innerHTML.toString()
         const new_title = await make_request(api_key, original_title, 'original')
         x.innerHTML = new_title;
         const example = `${original_title}\n${new_title}\n`;
-        console.log("###################")
-        console.log(href)
+        console.log("###################");
+        console.log(video_id);
         console.log(example);
         examples += example;
       }
