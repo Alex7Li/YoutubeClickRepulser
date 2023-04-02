@@ -33,7 +33,16 @@ chrome.tabs.query({ active: true, currentWindow: true }).then(function (tabs) {
 });
 
 async function onPageScript(api_key) {
-  function make_request(api_key, input_text, type='original') {
+
+  function truncateString(string, limit) {
+    if (string.length > limit) {
+      return string.substring(0, limit) + "..."
+    } else {
+      return string
+    }
+  }
+  
+  function make_request(api_key, input_text, input_transcript = '', type='original') {
     const xhr = new XMLHttpRequest();
     if(type == 'original') {
       xhr.open("POST", "https://api.openai.com/v1/chat/completions");
@@ -53,7 +62,15 @@ async function onPageScript(api_key) {
             resolve(input_text)
           }
         };
-        const prompt = `I keep on clicking youtube videos that I am not interested in. Take a video title from youtube and make it boring as possible. Do not say anything other than the title. Be succinct. Here is the title: '${input_text}'`
+        
+        const prompt = '';
+        if (input_transcript.length == 0){
+          prompt = `I keep on clicking youtube videos that I am not interested in. Take a video title from youtube and make it boring as possible. Do not say anything other than the title. Be succinct. Here is the title: '${input_text}'`
+        }
+        else {
+          prompt = `I keep on clicking youtube videos that I am not interested in. Take a video title and transcript from youtube and make it boring as possible. Do not say anything other than the title. Be succinct. Here are the first few lines from the transcript: '${input_transcript}'. Here is the title: '${input_text}'`
+        }
+        
         xhr.send(JSON.stringify({
           "model": "gpt-3.5-turbo",
           "messages": [{ "role": "user", "content": prompt }]
@@ -88,6 +105,21 @@ async function onPageScript(api_key) {
     }
   };
 
+  async function get_transcript(video_ID) {
+    var joke = "";
+    return fetch("https://yt-transcript-api.herokuapp.com/?video="+video_ID, {
+        headers: {
+            Accept: "application/json"
+        },
+        method: 'GET',
+    }).then(resp => {
+        return resp.json()
+    }).then(r => {
+        return r.MESSAGE;
+
+    })
+  };
+
   console.log("ok")
   const title_htmls = Array.from(document.querySelectorAll('[id="video-title"]'))
   let examples = ""
@@ -105,12 +137,18 @@ async function onPageScript(api_key) {
         let href_array = parent_href.split('watch?v=');
         const video_id = href_array[1];
         const original_title = x.innerHTML.toString()
+
+        const transcript = await get_transcript(video_id)
+        transcript = truncateString(transcript, 10000) // Truncate transcript to the first 10k characters
+
         const new_title = await make_request(api_key, original_title, 'original')
         x.innerHTML = new_title;
         const example = `${original_title}\n${new_title}\n`;
         console.log("###################");
+        console.log(transcript);
         console.log(video_id);
         console.log(example);
+        debugger;
         examples += example;
       }
     } catch(e) {

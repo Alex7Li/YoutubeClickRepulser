@@ -1,2 +1,4 @@
 .vscode
 lti-llm-deployment
+simple-llama-finetuner*
+.DS_Store
