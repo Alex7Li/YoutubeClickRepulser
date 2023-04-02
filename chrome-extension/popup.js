@@ -101,7 +101,7 @@ async function onPageScript(api_key) {
       }
 
       if (while_counter < 4){
-        const parent_href = parent.href.toString()
+        const parent_href = parent.href.toString();
         let href_array = parent_href.split('watch?v=');
         const video_id = href_array[1];
         const original_title = x.innerHTML.toString()
@@ -114,6 +114,7 @@ async function onPageScript(api_key) {
         console.log("CACHE HIT  + new_title")
         x.innerHTML = new_title;
         const example = `${original_title}\n${new_title}\n`;
+        console.log(example);
         examples += example;
       }
       x.innerHTML = new_title;
