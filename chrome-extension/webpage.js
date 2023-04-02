@@ -1,13 +1,13 @@
 const sleep = time => new Promise(res => setTimeout(res, time, "done sleeping"));
 async function onPageLoaded() {
   // chrome.storage.local.clear()
-  await sleep(2000);
+  await sleep(1000);
   const videos = getTitles()
   console.log(videos)
   for (const video of videos) {
     video['new_title'] = await getVideoTitle(video.id)
     if(video['new_title'] == undefined) {
-      video['new_title'] = await make_request(window.OPENAPI_KEY, video.title)
+      video['new_title'] = await make_request(window.OPENAPI_KEY, video.title)//, 'llama')
       if (video['new_title'] != ERROR_TEXT) {
         // TODO: Handle storage out of space by clearing the cache
         chrome.storage.local.set({ [video.id]: video['new_title'] })
@@ -63,14 +63,18 @@ function getTitles() {
   return videos
 }
 
-chrome.storage.sync.get(['openaikey'], function (storage) {
-  window.OPENAPI_KEY = storage.openaikey
+chrome.storage.sync.get(['activated'], function (storage_1) {
+  if(storage_1.activated) {
+    chrome.storage.sync.get(['openaikey'], function (storage) {
+      window.OPENAPI_KEY = storage.openaikey
 
-  if (document.readyState !== 'loading') {
-    // Page has already loaded, start processing now
-    onPageLoaded();
-  } else {
-    // Wait for page to load
-    document.addEventListener("DOMContentLoaded", onPageLoaded);
+      if (document.readyState !== 'loading') {
+        // Page has already loaded, start processing now
+        onPageLoaded();
+      } else {
+        // Wait for page to load
+        document.addEventListener("DOMContentLoaded", onPageLoaded);
+      }
+    });
   }
-});
+})
