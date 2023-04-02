@@ -12,6 +12,8 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
+
+
 chrome.tabs.query({ active: true, currentWindow: true }).then(function (tabs) {
   const activeTab = tabs[0];
   const activeTabId = activeTab.id;
@@ -87,32 +89,37 @@ async function onPageScript(api_key) {
         throw Error("Invalid request type")
     }
   };
-
-  console.log("ok")
   const title_htmls = Array.from(document.querySelectorAll('[id="video-title"]'))
   let examples = ""
   for (const x of title_htmls) {
     try {
       let while_counter = 0;
-          let parent = x.parentElement;
-          while (parent.tagName != "A" && while_counter < 4){
-              parent = parent.parentElement;
-              while_counter += 1;
-          }
+      let parent = x.parentElement;
+      while (parent.tagName != "A" && while_counter < 4){
+          parent = parent.parentElement;
+          while_counter += 1;
+      }
 
       if (while_counter < 4){
         const parent_href = parent.href.toString()
         let href_array = parent_href.split('watch?v=');
-        const href = href_array[1];
+        const video_id = href_array[1];
         const original_title = x.innerHTML.toString()
-        const new_title = await make_request(api_key, original_title, 'original')
+        let new_title = await getVideoTitle(video_id);
+        if (new_title == undefined) {
+          console.log("CACHE MISS  + new_title")
+          new_title = await make_request(api_key, original_title, 'original');
+          setVideoTitle(cache_key, new_title);
+        }
+        console.log("CACHE HIT  + new_title")
         x.innerHTML = new_title;
         const example = `${original_title}\n${new_title}\n`;
-        console.log("###################")
-        console.log(href)
-        console.log(example);
         examples += example;
       }
+      x.innerHTML = new_title;
+      const example = `${original_title}\t${new_title}\n`;
+      console.log(example);
+      examples += example
     } catch(e) {
       console.error(e)
     }
