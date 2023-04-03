@@ -1,0 +1,15 @@
+
+
+Cost analysis:
+Each page hit might find 10 uncached videos. Assuming 20 youtube page hits a day,
+we do 200 requests/day.
+
+Using stats from our dataset, we can expect 6k tokens (input+output) per 200 requests.
+The fine-tuned ada model costs .16 cents per 1k tokens, so the extension costs about 1 cent
+a day.
+
+Zipping the extension:
+
+```bash
+zip chrome.zip -xcvf chrome-extension/*
+```

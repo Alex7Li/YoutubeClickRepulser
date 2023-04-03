@@ -82,8 +82,9 @@ function make_request(api_key, input_text, type='original') {
         console.error("XHR Error")
       }
       xhr.send(JSON.stringify({
-        "model": "davinci:ft-personal-2023-04-02-03-29-46",
-        "prompt": input_text + "->",
+        // "model": "davinci:ft-personal-2023-04-02-03-29-46",
+        "model": "babbage:ft-personal-2023-04-03-02-44-49",
+        "prompt": "[Clickbait]: " +input_text + " [Unassuming and Terse]: ",
         "stop": "\n"
       }));
     })
