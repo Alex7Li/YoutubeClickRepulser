@@ -1,8 +1,9 @@
 const sleep = time => new Promise(res => setTimeout(res, time, "done sleeping"));
 async function onPageLoaded() {
   // chrome.storage.local.clear()
-  await sleep(1000);
+  // await sleep(1000);
   const videos = getTitles()
+  console.log(videos)
   for (const video of videos) {
     video['new_title'] = await getVideoTitle(video.id)
     if(video['new_title'] == undefined) {
@@ -66,14 +67,8 @@ chrome.storage.sync.get(['activated'], function (storage_1) {
   if(storage_1.activated) {
     chrome.storage.sync.get(['openaikey'], function (storage) {
       window.OPENAPI_KEY = storage.openaikey
-
-      if (document.readyState !== 'loading') {
-        // Page has already loaded, start processing now
-        onPageLoaded();
-      } else {
-        // Wait for page to load
-        document.addEventListener("DOMContentLoaded", onPageLoaded);
-      }
+      onPageLoaded()
+      document.addEventListener("yt-service-request-completed", onPageLoaded);
     });
   }
 })

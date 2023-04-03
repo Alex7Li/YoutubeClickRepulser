@@ -47,18 +47,13 @@ title_data['completion'] = title_data.apply(get_completion, axis=1)
 title_data.to_csv('data_comma_sep_auto.csv', index=False)
 
 # BASH COMMANDS AFTER RUNNING:
-# openai tools fine_tunes.prepare_data -f data_comma_sep.csv 
-# openai api fine_tunes.create -t data_comma_sep_prepared.jsonl -m davinci
+# openai tools fine_tunes.prepare_data -f data_merged.csv 
+# openai api fine_tunes.create -t data_merged_prepared.jsonl -m ada
 
 # LOGS
-# Upload progress: 100%|█████████████████████████████████████████████████████████████| 32.6k/32.6k [00:00<00:00, 26.7Mit/s]
+# davinci, just 250 dataset
 # Uploaded file from data_comma_asep_prepared.jsonl: file-h19cTjKHGTPkDYhj7drjH7nv
-# Created fine-tune: ft-F2Kp9YQKmLPXspBTAQl6Al2X
-# Streaming events until fine-tuning is complete...
-
-# (Ctrl-C will interrupt the stream, but not cancel the fine-tune)
-# [2023-04-01 23:10:43] Created fine-tune: ft-F2Kp9YQKmLPXspBTAQl6Al2X
-# Stream interrupted (client disconnected).
-# To resume the stream, run:
-
 #   openai api fine_tunes.follow -i ft-F2Kp9YQKmLPXspBTAQl6Al2X
+# ada, 2k dataset
+# Uploaded file from data_merged_prepared.jsonl: file-IMZFFCVgxY6h5MQ03rZ4RniP
+# [2023-04-02 21:08:30] Created fine-tune: ft-siX8M1mgb3sg2Qcz7B7llGtR
